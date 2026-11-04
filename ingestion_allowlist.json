@@ -1,0 +1,20 @@
+{
+  "training_pdf_paths": [
+    "documents/treasurer/treasurer_1927.pdf",
+    "documents/treasurer/treasurer_1928.pdf",
+    "documents/treasurer/treasurer_1929.pdf",
+    "documents/treasurer/treasurer_1930.pdf",
+    "documents/treasurer/treasurer_1931.pdf",
+    "documents/usfr/usfr_2020.pdf",
+    "documents/usfr/usfr_2021.pdf",
+    "documents/usfr/usfr_2022.pdf",
+    "documents/usfr/usfr_2023.pdf",
+    "documents/usfr/usfr_2024.pdf"
+  ],
+  "excluded_paths": [
+    "benchmark_reference_only/**",
+    "provenance/**",
+    "evidence/**"
+  ],
+  "notes": "Benchmark examples and evaluation metadata are reference-only."
+}

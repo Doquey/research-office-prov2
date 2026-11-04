@@ -1,0 +1,1334 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-04",
+  "candidate_count": 15,
+  "page_numbering": "All evidence PDF pages are 1-based; printed labels may differ.",
+  "status_semantics": {
+    "Confirmed": "Relevant document feature observed, not a confirmed model failure.",
+    "Potential": "Plausible use, but full feature or task requirement unverified.",
+    "Unsupported": "No evidence for the proposed property; do not use as a claim."
+  },
+  "candidates": [
+    {
+      "id": "frb_1930",
+      "title": "Seventeenth Annual Report of the Federal Reserve Board Covering Operations for the Year 1930",
+      "institution": "Federal Reserve Board; U.S. Government Printing Office",
+      "year": 1931,
+      "publication_year": 1931,
+      "reporting_year": 1930,
+      "year_evidence": "Printed title page",
+      "collection": "frb",
+      "source_url": "https://fraser.stlouisfed.org/title/annual-report-board-governors-federal-reserve-system-117/1930-2487",
+      "pdf_url": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1930.pdf",
+      "text_url": "https://fraser.stlouisfed.org/title/annual-report-board-governors-federal-reserve-system-117/1930-2487/fulltext",
+      "text_url_status": "discovered; local PDF text extraction verified; separate endpoint not independently fetched",
+      "format": "PDF: scanned original with OCR text layer",
+      "page_count": 370,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Reserve-bank balance-sheet and earnings statistics, gross/net income, dividends, surplus, franchise taxes and interest rates; bank and year dimensions.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 71,
+          "section": "Tables 24 and 25: gross/net earnings, dividends, surplus, franchise tax, earnings sources; historical columns and a prior-year franchise-tax footnote.",
+          "source_url": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1930.pdf#page=71",
+          "local_path": "documents/frb/frb_1930.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "ANNUAL REPORT OF THE FEDERAL RESERVE BOARD \n63\nEARNINGS AND EXPENSES OF FEDERAL RESERVE BANKS\nNo. 24.—GROSS AND NET EARNINGS OF FEDERAL RESERVE BANKS, AND DISPO-\nSITION MADE OF NET EARNINGS, 1914-1930\n[Figures for ejich Federal reserve bank are given in Table 85]\nYear\n1914-15..\n1916\n1917\n1918\n1919\n1"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "frb_1931",
+            "frb_1932",
+            "frb_1933",
+            "frb_1934"
+          ]
+        },
+        "FM2": {
+          "status": "Confirmed",
+          "evidence": "Scanned numerical tables, irregular reading order, multi-level headers and footnotes inspected."
+        },
+        "FM3": {
+          "status": "Potential",
+          "evidence": "Historical comparisons and accounting footnotes observed, but no original-versus-restated numerical pair verified. A reserve reversal or later-year balance change is not automatically a restatement."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:04:13.044844+00:00",
+        "sha256": "3436b022bfa0be3bbf84c058eaaf7b094929b9e9211582168617e60647cafc0d",
+        "size_bytes": 11282797,
+        "local_pdf": "documents/frb/frb_1930.pdf",
+        "local_page_text": "extracted/frb_1930.jsonl",
+        "sample_visual_page": 71
+      },
+      "corpus_similarity_rationale": "Strong historical-layout analogue; economic/central-bank accounting differs from federal appropriation and outlay accounting. Expansion set, not the primary pilot.",
+      "selected_for_pilot": false,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "FRASER title 117 marks No Copyright - United States. FRASER service terms separately restrict scraping and commercial service use; do not treat public-domain status as a blanket bulk-service licence.",
+      "rights_source": "https://fraser.stlouisfed.org/title/117",
+      "drive_url": "https://drive.google.com/file/d/1su0e6eltDm-d5wqehvWzSMoL7KWDCBHf/view?usp=drivesdk"
+    },
+    {
+      "id": "frb_1931",
+      "title": "Eighteenth Annual Report of the Federal Reserve Board Covering Operations for the Year 1931",
+      "institution": "Federal Reserve Board; U.S. Government Printing Office",
+      "year": 1932,
+      "publication_year": 1932,
+      "reporting_year": 1931,
+      "year_evidence": "Printed title page",
+      "collection": "frb",
+      "source_url": "https://fraser.stlouisfed.org/title/annual-report-board-governors-federal-reserve-system-117/1931-2489",
+      "pdf_url": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1931.pdf",
+      "text_url": "https://fraser.stlouisfed.org/title/annual-report-board-governors-federal-reserve-system-117/1931-2489/fulltext",
+      "text_url_status": "discovered; local PDF text extraction verified; separate endpoint not independently fetched",
+      "format": "PDF: scanned original with OCR text layer",
+      "page_count": 314,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Reserve-bank balance-sheet and earnings statistics, gross/net income, dividends, surplus, franchise taxes and interest rates; bank and year dimensions.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 23,
+          "section": "Earnings/expenses for 1931/1930 in thousands; depreciation reserve excluded by footnote; rates versus dollar amounts in nested table.",
+          "source_url": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1931.pdf#page=23",
+          "local_path": "documents/frb/frb_1931.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "14\nANNUAL REPORT OF THE FEDERAL RESERVE BOARD\nEARNINGS AND EXPENSES OF FEDERAL RESERVE BANKS DURING 1931 AND 1930\n[In thousand of dollars]\nTotal earnings\nCurrent expenses..\nCurrent net earnings.\nAdditions (profits on sales of United States Government securities, etc) _\nDeductions (depreciation and o"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "frb_1930",
+            "frb_1932",
+            "frb_1933",
+            "frb_1934"
+          ]
+        },
+        "FM2": {
+          "status": "Confirmed",
+          "evidence": "Scanned numerical tables, irregular reading order, multi-level headers and footnotes inspected."
+        },
+        "FM3": {
+          "status": "Potential",
+          "evidence": "Historical comparisons and accounting footnotes observed, but no original-versus-restated numerical pair verified. A reserve reversal or later-year balance change is not automatically a restatement."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:04:34.631530+00:00",
+        "sha256": "78b87ab14376b316d20b25b0cefc9d573149026764ae1f79cef3aa4d112b9662",
+        "size_bytes": 9719652,
+        "local_pdf": "documents/frb/frb_1931.pdf",
+        "local_page_text": "extracted/frb_1931.jsonl",
+        "sample_visual_page": 23
+      },
+      "corpus_similarity_rationale": "Strong historical-layout analogue; economic/central-bank accounting differs from federal appropriation and outlay accounting. Expansion set, not the primary pilot.",
+      "selected_for_pilot": false,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "FRASER title 117 marks No Copyright - United States. FRASER service terms separately restrict scraping and commercial service use; do not treat public-domain status as a blanket bulk-service licence.",
+      "rights_source": "https://fraser.stlouisfed.org/title/117",
+      "drive_url": "https://drive.google.com/file/d/1Kc9RtPXvGQ9m3QV2aUeYkErSp8S-xBt6/view?usp=drivesdk"
+    },
+    {
+      "id": "frb_1932",
+      "title": "Nineteenth Annual Report of the Federal Reserve Board Covering Operations for the Year 1932",
+      "institution": "Federal Reserve Board; U.S. Government Printing Office",
+      "year": 1933,
+      "publication_year": 1933,
+      "reporting_year": 1932,
+      "year_evidence": "Printed title page",
+      "collection": "frb",
+      "source_url": "https://fraser.stlouisfed.org/title/annual-report-board-governors-federal-reserve-system-117/1932-2490",
+      "pdf_url": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1932.pdf",
+      "text_url": "https://fraser.stlouisfed.org/title/annual-report-board-governors-federal-reserve-system-117/1932-2490/fulltext",
+      "text_url_status": "discovered; local PDF text extraction verified; separate endpoint not independently fetched",
+      "format": "PDF: scanned original with OCR text layer",
+      "page_count": 367,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Reserve-bank balance-sheet and earnings statistics, gross/net income, dividends, surplus, franchise taxes and interest rates; bank and year dimensions.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 41,
+          "section": "Reserve-bank-specific gross/net earnings, dividends, surplus and franchise tax; narrative explains return of depreciation reserve to surplus.",
+          "source_url": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1932.pdf#page=41",
+          "local_path": "documents/frb/frb_1932.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "32\nANNUAL REPORT OF THE FEDERAL RESERVE BOARD\nDividends of the Federal Reserve banks of St. Louis and Dallas were\npaid in part out of net earnings and in part out of surplus. All of\nthe other Federal Reserve banks had sufficient net earnings to pay\naccrued dividends in full. The Federal Reserve Bank"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "frb_1930",
+            "frb_1931",
+            "frb_1933",
+            "frb_1934"
+          ]
+        },
+        "FM2": {
+          "status": "Confirmed",
+          "evidence": "Scanned numerical tables, irregular reading order, multi-level headers and footnotes inspected."
+        },
+        "FM3": {
+          "status": "Potential",
+          "evidence": "Historical comparisons and accounting footnotes observed, but no original-versus-restated numerical pair verified. A reserve reversal or later-year balance change is not automatically a restatement."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:04:37.037206+00:00",
+        "sha256": "d7dcda4e61dd41b842efa9d8dac94eb52733977c4b1c4072684aea7c26601710",
+        "size_bytes": 25126723,
+        "local_pdf": "documents/frb/frb_1932.pdf",
+        "local_page_text": "extracted/frb_1932.jsonl",
+        "sample_visual_page": 41
+      },
+      "corpus_similarity_rationale": "Strong historical-layout analogue; economic/central-bank accounting differs from federal appropriation and outlay accounting. Expansion set, not the primary pilot.",
+      "selected_for_pilot": false,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "FRASER title 117 marks No Copyright - United States. FRASER service terms separately restrict scraping and commercial service use; do not treat public-domain status as a blanket bulk-service licence.",
+      "rights_source": "https://fraser.stlouisfed.org/title/117",
+      "drive_url": "https://drive.google.com/file/d/1hyUwV6w23jNsRrQFeRuRqz7OCw9RXhAO/view?usp=drivesdk"
+    },
+    {
+      "id": "frb_1933",
+      "title": "Twentieth Annual Report of the Federal Reserve Board Covering Operations for the Year 1933",
+      "institution": "Federal Reserve Board; U.S. Government Printing Office",
+      "year": 1934,
+      "publication_year": 1934,
+      "reporting_year": 1933,
+      "year_evidence": "Printed title page",
+      "collection": "frb",
+      "source_url": "https://fraser.stlouisfed.org/title/annual-report-board-governors-federal-reserve-system-117/1933-2491",
+      "pdf_url": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1933.pdf",
+      "text_url": "https://fraser.stlouisfed.org/title/annual-report-board-governors-federal-reserve-system-117/1933-2491/fulltext",
+      "text_url_status": "discovered; local PDF text extraction verified; separate endpoint not independently fetched",
+      "format": "PDF: scanned original with OCR text layer",
+      "page_count": 413,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Reserve-bank balance-sheet and earnings statistics, gross/net income, dividends, surplus, franchise taxes and interest rates; bank and year dimensions.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 69,
+          "section": "1933/1932 comparative earnings in thousands and bank-specific results in dollars on the same page; negative values.",
+          "source_url": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1933.pdf#page=69",
+          "local_path": "documents/frb/frb_1933.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "60\nANNUAL REPORT OF THE FEDERAL RESERVE BOARD\nlosses, self-insurance, etc., there remained net earnings of $7,957,000,\nor $917,000 less than the amount of dividends paid during the year.\nEarnings, expenses, dividend payments, etc., for all Federal Reserve\nbanks combined for 1933 and 1932 are shown i"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "frb_1930",
+            "frb_1931",
+            "frb_1932",
+            "frb_1934"
+          ]
+        },
+        "FM2": {
+          "status": "Confirmed",
+          "evidence": "Scanned numerical tables, irregular reading order, multi-level headers and footnotes inspected."
+        },
+        "FM3": {
+          "status": "Potential",
+          "evidence": "Historical comparisons and accounting footnotes observed, but no original-versus-restated numerical pair verified. A reserve reversal or later-year balance change is not automatically a restatement."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:04:35.521056+00:00",
+        "sha256": "37ea9327f30fcce8818680d236841ce711d6dd59c46364175ddbf85138ce4c3c",
+        "size_bytes": 11231386,
+        "local_pdf": "documents/frb/frb_1933.pdf",
+        "local_page_text": "extracted/frb_1933.jsonl",
+        "sample_visual_page": 69
+      },
+      "corpus_similarity_rationale": "Strong historical-layout analogue; economic/central-bank accounting differs from federal appropriation and outlay accounting. Expansion set, not the primary pilot.",
+      "selected_for_pilot": false,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "FRASER title 117 marks No Copyright - United States. FRASER service terms separately restrict scraping and commercial service use; do not treat public-domain status as a blanket bulk-service licence.",
+      "rights_source": "https://fraser.stlouisfed.org/title/117",
+      "drive_url": "https://drive.google.com/file/d/1eO8_nwvzsiF4gHlXkc9QKb5GuiKOwiB4/view?usp=drivesdk"
+    },
+    {
+      "id": "frb_1934",
+      "title": "Twenty-first Annual Report of the Federal Reserve Board Covering Operations for the Year 1934",
+      "institution": "Federal Reserve Board; U.S. Government Printing Office",
+      "year": 1935,
+      "publication_year": 1935,
+      "reporting_year": 1934,
+      "year_evidence": "Printed title page",
+      "collection": "frb",
+      "source_url": "https://fraser.stlouisfed.org/title/annual-report-board-governors-federal-reserve-system-117/1934-2492",
+      "pdf_url": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1934.pdf",
+      "text_url": "https://fraser.stlouisfed.org/title/annual-report-board-governors-federal-reserve-system-117/1934-2492/fulltext",
+      "text_url_status": "discovered; local PDF text extraction verified; separate endpoint not independently fetched",
+      "format": "PDF: scanned original with OCR text layer",
+      "page_count": 284,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Reserve-bank balance-sheet and earnings statistics, gross/net income, dividends, surplus, franchise taxes and interest rates; bank and year dimensions.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 48,
+          "section": "1934/1933 comparative earnings/expenses, net earnings, dividends, surplus under different statutory sections.",
+          "source_url": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1934.pdf#page=48",
+          "local_path": "documents/frb/frb_1934.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "ANNUAL REPORT OF THE FEDERAL RESERVE BOARD\n39\nmaintained by other persons than members of a national securities\nexchange, or brokers or dealers who transact a business in securities\nthrough the medium of such members, for the purpose of purchasing\nor carrying any security registered on a national se"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "frb_1930",
+            "frb_1931",
+            "frb_1932",
+            "frb_1933"
+          ]
+        },
+        "FM2": {
+          "status": "Confirmed",
+          "evidence": "Scanned numerical tables, irregular reading order, multi-level headers and footnotes inspected."
+        },
+        "FM3": {
+          "status": "Potential",
+          "evidence": "Historical comparisons and accounting footnotes observed, but no original-versus-restated numerical pair verified. A reserve reversal or later-year balance change is not automatically a restatement."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:04:49.508791+00:00",
+        "sha256": "b4d230ae51ef820adad12a11d9fc0c184502d43a8d6841e674bcc58418351fb3",
+        "size_bytes": 7593233,
+        "local_pdf": "documents/frb/frb_1934.pdf",
+        "local_page_text": "extracted/frb_1934.jsonl",
+        "sample_visual_page": 48
+      },
+      "corpus_similarity_rationale": "Strong historical-layout analogue; economic/central-bank accounting differs from federal appropriation and outlay accounting. Expansion set, not the primary pilot.",
+      "selected_for_pilot": false,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "FRASER title 117 marks No Copyright - United States. FRASER service terms separately restrict scraping and commercial service use; do not treat public-domain status as a blanket bulk-service licence.",
+      "rights_source": "https://fraser.stlouisfed.org/title/117",
+      "drive_url": "https://drive.google.com/file/d/1EJGboWWlXLPTn6CR0gYcRPvntlBRXbdY/view?usp=drivesdk"
+    },
+    {
+      "id": "treasurer_1927",
+      "title": "Annual Report of the Treasurer of the United States for the Fiscal Year Ended June 30, 1927",
+      "institution": "U.S. Department of the Treasury, Treasurer of the United States",
+      "year": 1927,
+      "publication_year": 1927,
+      "reporting_year": 1927,
+      "year_evidence": "GovInfo issue-year metadata and report title",
+      "collection": "treasurer",
+      "source_url": "https://www.govinfo.gov/app/details/GOVPUB-T-611b9e14ae35d0433572e2f6393e3e68",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-611b9e14ae35d0433572e2f6393e3e68/pdf/GOVPUB-T-611b9e14ae35d0433572e2f6393e3e68.pdf",
+      "text_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-611b9e14ae35d0433572e2f6393e3e68/text/GOVPUB-T-611b9e14ae35d0433572e2f6393e3e68.txt",
+      "text_url_status": "discovered; local PDF text extraction verified; separate endpoint not independently fetched",
+      "format": "PDF: scanned original with OCR text layer",
+      "page_count": 80,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Government receipts, departmental expenditures, public-debt transactions, cash balances, gold/currency, postal accounts; historical dollar-and-cent tables.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 10,
+          "section": "Ordinary receipts; prior-year comparison; postal revenue explicitly excluded.",
+          "source_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-611b9e14ae35d0433572e2f6393e3e68/pdf/GOVPUB-T-611b9e14ae35d0433572e2f6393e3e68.pdf#page=10",
+          "local_path": "documents/treasurer/treasurer_1927.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "REPORT\nOF THE\nTREASURER OF THE UNITED STATES\nTrea\nsu ry  of  th e Uni ted  Sta te s ,\nWashington, October 12, 1927.\nSir : In compliance with the provisions of section 305, Revised \nStatutes of the United States, I have the honor to submit herewith \na report covering the transactions of the Treasury "
+        },
+        {
+          "pdf_page": 11,
+          "section": "Agency expenditure rows with 1926, 1927, increase and decrease columns.",
+          "source_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-611b9e14ae35d0433572e2f6393e3e68/pdf/GOVPUB-T-611b9e14ae35d0433572e2f6393e3e68.pdf#page=11",
+          "local_path": "documents/treasurer/treasurer_1927.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": "2\nREPORT OF THE TREASURER OF THE UNITED STATES\nAccount\n1926\n1927\nIncrease\nDecrease\nEXPENDITURES\nPay warrants drawn (net): \nLegislative-. _____________\n$15,918,116.02\n473,289. 96 \n559,957,346.17 \n155,754,232. 74\n29,079,059.44 \n304, 708, 012. 53 \n' 4,345,339.75\n19, 659, 966. 59\n8, 613,197.89 \n311, 611"
+        },
+        {
+          "pdf_page": 15,
+          "section": "Post Office receipts and disbursements have a separate accounting scope.",
+          "source_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-611b9e14ae35d0433572e2f6393e3e68/pdf/GOVPUB-T-611b9e14ae35d0433572e2f6393e3e68.pdf#page=15",
+          "local_path": "documents/treasurer/treasurer_1927.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": "6\nREPORT OF THE TREASURER OF THE UNITED STATES\n$554,526,523.90 were received and disbursed by postmasters with-\nout being deposited in the Treasury. Such disbursements are au-\nthorized by law and are accounted for under the provisions of section \n406 of the Revised Statutes of the United States.\nAll"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "treasurer_1928",
+            "treasurer_1929",
+            "treasurer_1930",
+            "treasurer_1931"
+          ]
+        },
+        "FM2": {
+          "status": "Confirmed",
+          "evidence": "Scanned numerical tables, irregular reading order, multi-level headers and footnotes inspected."
+        },
+        "FM3": {
+          "status": "Potential",
+          "evidence": "Revised statement terminology occurs; no particular original/revised pair was established for this report."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:03:55.829174+00:00",
+        "sha256": "f81abfb7a94fdfe497ca3f1c39db21b61d015a734b6d086899b0907ceee91338",
+        "size_bytes": 10489372,
+        "local_pdf": "documents/treasurer/treasurer_1927.pdf",
+        "local_page_text": "extracted/treasurer_1927.jsonl",
+        "sample_visual_page": 10
+      },
+      "corpus_similarity_rationale": "Highest: same Treasury receipt/expenditure subject matter, dense historical accounting, scanned pages and foldouts; a distinct Treasurer annual-report series rather than the benchmark Combined Statements.",
+      "selected_for_pilot": true,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "GovInfo item identifies a U.S. Government work under 17 USC 105; preserve original notices and attribution.",
+      "rights_source": "https://www.govinfo.gov/app/details/GOVPUB-T-611b9e14ae35d0433572e2f6393e3e68",
+      "drive_url": "https://drive.google.com/file/d/18xR7jWpeKT1woDNxv3LqR15yswNfd9A_/view?usp=drivesdk"
+    },
+    {
+      "id": "treasurer_1928",
+      "title": "Annual Report of the Treasurer of the United States for the Fiscal Year Ended June 30, 1928",
+      "institution": "U.S. Department of the Treasury, Treasurer of the United States",
+      "year": 1928,
+      "publication_year": 1928,
+      "reporting_year": 1928,
+      "year_evidence": "GovInfo issue-year metadata and report title",
+      "collection": "treasurer",
+      "source_url": "https://www.govinfo.gov/app/details/GOVPUB-T-bd3d161a2d266f790329da23ad4e1350",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-bd3d161a2d266f790329da23ad4e1350/pdf/GOVPUB-T-bd3d161a2d266f790329da23ad4e1350.pdf",
+      "text_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-bd3d161a2d266f790329da23ad4e1350/text/GOVPUB-T-bd3d161a2d266f790329da23ad4e1350.txt",
+      "text_url_status": "discovered; local PDF text extraction verified; separate endpoint not independently fetched",
+      "format": "PDF: scanned original with OCR text layer",
+      "page_count": 80,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Government receipts, departmental expenditures, public-debt transactions, cash balances, gold/currency, postal accounts; historical dollar-and-cent tables.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 11,
+          "section": "Receipts and expenditures: 1927/1928, increase/decrease; departmental and revenue categories.",
+          "source_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-bd3d161a2d266f790329da23ad4e1350/pdf/GOVPUB-T-bd3d161a2d266f790329da23ad4e1350.pdf#page=11",
+          "local_path": "documents/treasurer/treasurer_1928.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "2\nREPORT OF THE TREASURER OF THE UNITED STATES\nAccount\n1927\n1928\nIncrease\nDecrease\nRECEIPTS\nCustoms__________________________\n$605, 672,465.18\n2,219,952,443. 72\n648, 732,440. 00\n621,186. 63\n498,917, 609.19\n30,658,055.16\n25, 544, 701.45\n$568,156, 592.92\n2,174, 573,102.89\n617, 620,008.78\n384,650. 89\n1"
+        },
+        {
+          "pdf_page": 12,
+          "section": "Footnotes distinguish cash receipts credited against expenditures.",
+          "source_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-bd3d161a2d266f790329da23ad4e1350/pdf/GOVPUB-T-bd3d161a2d266f790329da23ad4e1350.pdf#page=12",
+          "local_path": "documents/treasurer/treasurer_1928.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": "REPORT OF THE TREASURER OF THE UNITED STATES\n3\n3 Items of this character represent cash receipts which are credited against the expenditures shown on \na warrant basis. It is necessary, therefore, to add back the amounts to expenditures by warrants in order \nto adjust to an actual cash basis. See als"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "treasurer_1927",
+            "treasurer_1929",
+            "treasurer_1930",
+            "treasurer_1931"
+          ]
+        },
+        "FM2": {
+          "status": "Confirmed",
+          "evidence": "Scanned numerical tables, irregular reading order, multi-level headers and footnotes inspected."
+        },
+        "FM3": {
+          "status": "Potential",
+          "evidence": "Revised figures occur; a specific cross-vintage discrepancy was not verified."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:03:56.167712+00:00",
+        "sha256": "397a428a50198fff4c823df113a58894a8b0d39f96a77cc9b02633921baec4f8",
+        "size_bytes": 10791717,
+        "local_pdf": "documents/treasurer/treasurer_1928.pdf",
+        "local_page_text": "extracted/treasurer_1928.jsonl",
+        "sample_visual_page": 11
+      },
+      "corpus_similarity_rationale": "Highest: same Treasury receipt/expenditure subject matter, dense historical accounting, scanned pages and foldouts; a distinct Treasurer annual-report series rather than the benchmark Combined Statements.",
+      "selected_for_pilot": true,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "GovInfo item identifies a U.S. Government work under 17 USC 105; preserve original notices and attribution.",
+      "rights_source": "https://www.govinfo.gov/app/details/GOVPUB-T-bd3d161a2d266f790329da23ad4e1350",
+      "drive_url": "https://drive.google.com/file/d/1-t0kR_A8tO5PAyscQz27huJI7ZgPPax9/view?usp=drivesdk"
+    },
+    {
+      "id": "treasurer_1929",
+      "title": "Annual Report of the Treasurer of the United States for the Fiscal Year Ended June 30, 1929",
+      "institution": "U.S. Department of the Treasury, Treasurer of the United States",
+      "year": 1929,
+      "publication_year": 1929,
+      "reporting_year": 1929,
+      "year_evidence": "GovInfo issue-year metadata and report title",
+      "collection": "treasurer",
+      "source_url": "https://www.govinfo.gov/app/details/GOVPUB-T-90d60562805b848788b86c614091c9cf",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-90d60562805b848788b86c614091c9cf/pdf/GOVPUB-T-90d60562805b848788b86c614091c9cf.pdf",
+      "text_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-90d60562805b848788b86c614091c9cf/text/GOVPUB-T-90d60562805b848788b86c614091c9cf.txt",
+      "text_url_status": "discovered; local PDF text extraction verified; separate endpoint not independently fetched",
+      "format": "PDF: scanned original with OCR text layer",
+      "page_count": 88,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Government receipts, departmental expenditures, public-debt transactions, cash balances, gold/currency, postal accounts; historical dollar-and-cent tables.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 11,
+          "section": "Monthly ordinary receipts, annual total, clearing adjustment, revised actual receipts.",
+          "source_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-90d60562805b848788b86c614091c9cf/pdf/GOVPUB-T-90d60562805b848788b86c614091c9cf.pdf#page=11",
+          "local_path": "documents/treasurer/treasurer_1929.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "Ordinary receipts\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember\nJanuary\nFebruary\nMarch\nApril\nMay\nJune\nTotal, July 1, \n1928, to June 30, \n1929\nNet amount of \nmoneys depos-\nited in the cur-\nrent fiscal year \nbut cleared in \nthe subsequent \nyear over the \namount depos-\nited in the \nprior fiscal year "
+        },
+        {
+          "pdf_page": 13,
+          "section": "Monthly expenditures, revised/unrevised totals, surplus and postal footnote.",
+          "source_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-90d60562805b848788b86c614091c9cf/pdf/GOVPUB-T-90d60562805b848788b86c614091c9cf.pdf#page=13",
+          "local_path": "documents/treasurer/treasurer_1929.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": "Expenditures chargeable against ordinary receipts\nGeneral expenditures: \nLegislative establishment________ _____\nExecutive proper__________________________\nState Department_________________________\nTreasury Department_____________________\nWar Department__________________________\nDepartment of Justic"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "treasurer_1927",
+            "treasurer_1928",
+            "treasurer_1930",
+            "treasurer_1931"
+          ]
+        },
+        "FM2": {
+          "status": "Confirmed",
+          "evidence": "Scanned numerical tables, irregular reading order, multi-level headers and footnotes inspected."
+        },
+        "FM3": {
+          "status": "Confirmed",
+          "evidence": "Unrevised and revised totals with explicit fiscal-year clearing adjustments coexist in foldouts; this proves within-report reconciliation, not a later-publication restatement."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:03:56.713918+00:00",
+        "sha256": "07678ac0fae96197ad13246b7bc1a6721c27c3b86cc705254dbab26dd0745508",
+        "size_bytes": 11467212,
+        "local_pdf": "documents/treasurer/treasurer_1929.pdf",
+        "local_page_text": "extracted/treasurer_1929.jsonl",
+        "sample_visual_page": 11
+      },
+      "corpus_similarity_rationale": "Highest: same Treasury receipt/expenditure subject matter, dense historical accounting, scanned pages and foldouts; a distinct Treasurer annual-report series rather than the benchmark Combined Statements.",
+      "selected_for_pilot": true,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "GovInfo item identifies a U.S. Government work under 17 USC 105; preserve original notices and attribution.",
+      "rights_source": "https://www.govinfo.gov/app/details/GOVPUB-T-90d60562805b848788b86c614091c9cf",
+      "drive_url": "https://drive.google.com/file/d/1MefAO8tYUpeM7-Cn5RbRhaTNYj_qBPbA/view?usp=drivesdk"
+    },
+    {
+      "id": "treasurer_1930",
+      "title": "Annual Report of the Treasurer of the United States for the Fiscal Year Ended June 30, 1930",
+      "institution": "U.S. Department of the Treasury, Treasurer of the United States",
+      "year": 1930,
+      "publication_year": 1930,
+      "reporting_year": 1930,
+      "year_evidence": "GovInfo issue-year metadata and report title",
+      "collection": "treasurer",
+      "source_url": "https://www.govinfo.gov/app/details/GOVPUB-T-605cd93d3b25243e27afc459aac55a91",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-605cd93d3b25243e27afc459aac55a91/pdf/GOVPUB-T-605cd93d3b25243e27afc459aac55a91.pdf",
+      "text_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-605cd93d3b25243e27afc459aac55a91/text/GOVPUB-T-605cd93d3b25243e27afc459aac55a91.txt",
+      "text_url_status": "discovered; local PDF text extraction verified; separate endpoint not independently fetched",
+      "format": "PDF: scanned original with OCR text layer",
+      "page_count": 96,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Government receipts, departmental expenditures, public-debt transactions, cash balances, gold/currency, postal accounts; historical dollar-and-cent tables.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 11,
+          "section": "Monthly ordinary receipts; actual versus statement total; France debt-settlement footnote transfers interest to principal.",
+          "source_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-605cd93d3b25243e27afc459aac55a91/pdf/GOVPUB-T-605cd93d3b25243e27afc459aac55a91.pdf#page=11",
+          "local_path": "documents/treasurer/treasurer_1930.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "Receipts and expenditures, by months, for the fiscal year 1930\nORDINARY RECEIPTS\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember\nJanuary\nFebruary\nMarch\nApril\nMay\nJune\nTotal July 1, 1929, \nto June 30, 1930\nDeduct net \namount of \nmoneys de-\nposited in the \nprior fiscal \nyear but \ncleared in the \ncurre"
+        },
+        {
+          "pdf_page": 13,
+          "section": "Monthly expenditure categories and clearing adjustment to revised annual total.",
+          "source_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-605cd93d3b25243e27afc459aac55a91/pdf/GOVPUB-T-605cd93d3b25243e27afc459aac55a91.pdf#page=13",
+          "local_path": "documents/treasurer/treasurer_1930.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": "Expenditures chargeable against ordinary receipts\nTotal expenditures chargeable against ordinary receipts, revised.\nJuly\nAugust\nSeptember\nOctober\nNovember\nGeneral expenditures:\nLegislative establishment______________________________________________\n$1, 816,770.82\n50,193.13\n$1, 515,890. 36\n$2, 571,88"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "treasurer_1927",
+            "treasurer_1928",
+            "treasurer_1929",
+            "treasurer_1931"
+          ]
+        },
+        "FM2": {
+          "status": "Confirmed",
+          "evidence": "Scanned numerical tables, irregular reading order, multi-level headers and footnotes inspected."
+        },
+        "FM3": {
+          "status": "Confirmed",
+          "evidence": "French debt payments are explicitly transferred from interest to principal; revised versus original annual totals also shown."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:04:13.841696+00:00",
+        "sha256": "d72a68407f84974bdaba8b2cf103ff9899273b270e398245a224e023b53b3d44",
+        "size_bytes": 12696397,
+        "local_pdf": "documents/treasurer/treasurer_1930.pdf",
+        "local_page_text": "extracted/treasurer_1930.jsonl",
+        "sample_visual_page": 11
+      },
+      "corpus_similarity_rationale": "Highest: same Treasury receipt/expenditure subject matter, dense historical accounting, scanned pages and foldouts; a distinct Treasurer annual-report series rather than the benchmark Combined Statements.",
+      "selected_for_pilot": true,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "GovInfo item identifies a U.S. Government work under 17 USC 105; preserve original notices and attribution.",
+      "rights_source": "https://www.govinfo.gov/app/details/GOVPUB-T-605cd93d3b25243e27afc459aac55a91",
+      "drive_url": "https://drive.google.com/file/d/1wx7FPYOkW53XITWir7njlSr7zPYdD0QT/view?usp=drivesdk"
+    },
+    {
+      "id": "treasurer_1931",
+      "title": "Annual Report of the Treasurer of the United States for the Fiscal Year Ended June 30, 1931",
+      "institution": "U.S. Department of the Treasury, Treasurer of the United States",
+      "year": 1931,
+      "publication_year": 1931,
+      "reporting_year": 1931,
+      "year_evidence": "GovInfo issue-year metadata and report title",
+      "collection": "treasurer",
+      "source_url": "https://www.govinfo.gov/app/details/GOVPUB-T-f151a087ee13443487af0236d2cf70f3",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-f151a087ee13443487af0236d2cf70f3/pdf/GOVPUB-T-f151a087ee13443487af0236d2cf70f3.pdf",
+      "text_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-f151a087ee13443487af0236d2cf70f3/text/GOVPUB-T-f151a087ee13443487af0236d2cf70f3.txt",
+      "text_url_status": "discovered; local PDF text extraction verified; separate endpoint not independently fetched",
+      "format": "PDF: scanned original with OCR text layer",
+      "page_count": 99,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Government receipts, departmental expenditures, public-debt transactions, cash balances, gold/currency, postal accounts; historical dollar-and-cent tables.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 13,
+          "section": "Landscape monthly receipts/expenditures table with general, special and trust funds; clearing adjustments; July 1930 expenditure reassignment from Interior and War to Veterans Administration.",
+          "source_url": "https://www.govinfo.gov/content/pkg/GOVPUB-T-f151a087ee13443487af0236d2cf70f3/pdf/GOVPUB-T-f151a087ee13443487af0236d2cf70f3.pdf#page=13",
+          "local_path": "documents/treasurer/treasurer_1931.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "RECEIPTS AND EXPENDITURES, BY MONTHS, FOR THE FISCAL YEAR 1931\n[Includes general, special, and trust funds]\nORDINARY RECEIPTS\nJuly, 1930\nAugust, 1930\nI\nSeptember, 1930\nOctober, 1930\nNovember, 1930 December, 1930\nJanuary, 1931\nFebruary, 1931\nMarch, 1931\nApril, 1931\nMay, 1931\nJune, 1931\nTotal, July 1,"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "treasurer_1927",
+            "treasurer_1928",
+            "treasurer_1929",
+            "treasurer_1930"
+          ]
+        },
+        "FM2": {
+          "status": "Confirmed",
+          "evidence": "Scanned numerical tables, irregular reading order, multi-level headers and footnotes inspected."
+        },
+        "FM3": {
+          "status": "Confirmed",
+          "evidence": "Footnote explicitly reallocates July 1930 expenditures from Interior and War to the new Veterans Administration for comparability."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:04:13.544592+00:00",
+        "sha256": "e404ca05e9c4976d9c582452c327ad70221e3cd246ccf404f6d71d5104149acf",
+        "size_bytes": 12503221,
+        "local_pdf": "documents/treasurer/treasurer_1931.pdf",
+        "local_page_text": "extracted/treasurer_1931.jsonl",
+        "sample_visual_page": 13
+      },
+      "corpus_similarity_rationale": "Highest: same Treasury receipt/expenditure subject matter, dense historical accounting, scanned pages and foldouts; a distinct Treasurer annual-report series rather than the benchmark Combined Statements.",
+      "selected_for_pilot": true,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "GovInfo item identifies a U.S. Government work under 17 USC 105; preserve original notices and attribution.",
+      "rights_source": "https://www.govinfo.gov/app/details/GOVPUB-T-f151a087ee13443487af0236d2cf70f3",
+      "drive_url": "https://drive.google.com/file/d/1tiC6Be65-NPP0RDvdeML9wbUVyzpLfvo/view?usp=drivesdk"
+    },
+    {
+      "id": "usfr_2020",
+      "title": "2020 Financial Report of the United States Government",
+      "institution": "U.S. Department of the Treasury, Bureau of the Fiscal Service, in cooperation with OMB",
+      "year": 2021,
+      "publication_year": 2021,
+      "reporting_year": 2020,
+      "year_evidence": "Secretary letter dated in following calendar year; reporting year is separate",
+      "collection": "usfr",
+      "source_url": "https://fiscal.treasury.gov/accounting/us-financial-report/2020-report",
+      "pdf_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2020/fr-03-25-2021-(final).pdf",
+      "text_url": null,
+      "text_url_status": "not applicable; local page text supplied",
+      "format": "PDF: digitally generated with selectable text and charts",
+      "page_count": 265,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Agency gross/net costs, earned revenues, assets/liabilities, budget-to-accrual reconciliation, dedicated collections, financial-statement notes and prior-year restatements.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 68,
+          "section": "Statement of Net Cost: agency rows; gross cost, earned revenue, actuarial changes, net cost in billions.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2020/fr-03-25-2021-(final).pdf#page=68",
+          "local_path": "documents/usfr/usfr_2020.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "                59 \nFINANCIAL STATEMENTS \n \n \n \nUnited States Government \nStatement of Net Cost \nfor the Year Ended September 30, 2020 \n(Gain)/Loss \nfrom \nGross \nEarned \nChanges in \nNet \n(In billions of dollars) \nCost \nRevenue \nSubtotal \nAssumption\nCost \nDepartment of Health and Human Services ....."
+        },
+        {
+          "pdf_page": 74,
+          "section": "Balance Sheet: original FY2020 values; compare FY2021 report PDF p72 restated FY2020 column.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2020/fr-03-25-2021-(final).pdf#page=74",
+          "local_path": "documents/usfr/usfr_2020.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "                65 \nFINANCIAL STATEMENTS \n \n \n \nUnited States Government \nBalance Sheets \nas of September 30, 2020, and 2019 \nRestated\n(In billions of dollars) \n2020\n2019\nAssets: \nCash and other monetary assets (Note 2) ..........................................................\n1,926.9 \n524.6 \nAccou"
+        },
+        {
+          "pdf_page": 90,
+          "section": "Note 1: changes in presentation, including relocation of unfunded leave.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2020/fr-03-25-2021-(final).pdf#page=90",
+          "local_path": "documents/usfr/usfr_2020.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": "            81 \nNOTES TO THE FINANCIAL STATEMENTS \n \n \n \ndecreased the correction of errors line on the Statement of Operations and Changes in Net Position by $13.5 billion to ($6.2) \nbillion. The unmatched transactions and balances line on the Statement of Operations and Changes in Net Position was"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "usfr_2021",
+            "usfr_2022",
+            "usfr_2023",
+            "usfr_2024"
+          ]
+        },
+        "FM2": {
+          "status": "Potential",
+          "evidence": "Complex numerical columns and accounting signs verified, but this modern PDF is not evidence of historical-scan difficulty."
+        },
+        "FM3": {
+          "status": "Confirmed",
+          "evidence": "Original FY2020 balance sheet can be paired with FY2021 report restated FY2020 balance sheet; both pages inspected."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:04:51.112414+00:00",
+        "sha256": "3e3848db3943b38d297c1945381a7425206090af0a3d8b34c3d95739d9f89869",
+        "size_bytes": 7469177,
+        "local_pdf": "documents/usfr/usfr_2020.pdf",
+        "local_page_text": "extracted/usfr_2020.jsonl",
+        "sample_visual_page": 68
+      },
+      "corpus_similarity_rationale": "Strong federal-accounting and revision analogue; modern accrual-based Financial Reports are distinct from the cash/budgetary Combined Statement series and have less historical OCR difficulty.",
+      "selected_for_pilot": true,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "U.S. Government financial report; preserve attribution and embedded third-party notices. Source website hosting alone is not blanket clearance for unrelated assets.",
+      "rights_source": "https://www.govinfo.gov/about/policies",
+      "drive_url": "https://drive.google.com/file/d/1GgYFSEG8N1xAzTavFMQGjSuwlKy_8ogQ/view?usp=drivesdk"
+    },
+    {
+      "id": "usfr_2021",
+      "title": "2021 Financial Report of the United States Government",
+      "institution": "U.S. Department of the Treasury, Bureau of the Fiscal Service, in cooperation with OMB",
+      "year": 2022,
+      "publication_year": 2022,
+      "reporting_year": 2021,
+      "year_evidence": "Secretary letter dated in following calendar year; reporting year is separate",
+      "collection": "usfr",
+      "source_url": "https://fiscal.treasury.gov/accounting/us-financial-report/2021-report",
+      "pdf_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2021/fr-02-17-2022-(final).pdf",
+      "text_url": null,
+      "text_url_status": "not applicable; local page text supplied",
+      "format": "PDF: digitally generated with selectable text and charts",
+      "page_count": 265,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Agency gross/net costs, earned revenues, assets/liabilities, budget-to-accrual reconciliation, dedicated collections, financial-statement notes and prior-year restatements.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 66,
+          "section": "Statement of Net Cost for FY2021: gross versus earned revenue and net amounts.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2021/fr-02-17-2022-(final).pdf#page=66",
+          "local_path": "documents/usfr/usfr_2021.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "            59 \nFINANCIAL STATEMENTS \n \n \n \nUnited States Government \nStatement of Net Cost \nfor the Year Ended September 30, 2021 \n(Gain)/Loss \nfrom \nGross \nEarned \nChanges in \nNet \n(In billions of dollars) \nCost \nRevenue \nSubtotal \nAssumption\nCost \nDepartment of Health and Human Services ........."
+        },
+        {
+          "pdf_page": 67,
+          "section": "Restated FY2020 Statement of Net Cost.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2021/fr-02-17-2022-(final).pdf#page=67",
+          "local_path": "documents/usfr/usfr_2021.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": " \nFINANCIAL STATEMENTS \n                                               60 \n \n \nUnited States Government \nStatement of Net Cost \nfor the Year Ended September 30, 2020 (Restated)  \n(Gain)/Loss \nfrom \nGross \nEarned \nChanges in \nNet \n(In billions of dollars) \nCost \nRevenue \nSubtotal Assumptions \nCost \nD"
+        },
+        {
+          "pdf_page": 72,
+          "section": "Balance Sheet: restated FY2020 column versus FY2020 report PDF p74.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2021/fr-02-17-2022-(final).pdf#page=72",
+          "local_path": "documents/usfr/usfr_2021.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "            65 \nFINANCIAL STATEMENTS \n \n \n \nUnited States Government \nBalance Sheets \nas of September 30, 2021, and 2020 \nRestated\n(In billions of dollars) \n2021\n2020\nAssets: \nCash and other monetary assets (Note 2) ..........................................................\n475.0 \n1,926.9 \nAccounts "
+        },
+        {
+          "pdf_page": 88,
+          "section": "Note 1.V/W: VA retrospective accounting changes and DOD correction of prior-year errors.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2021/fr-02-17-2022-(final).pdf#page=88",
+          "local_path": "documents/usfr/usfr_2021.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": "81 \nNOTES TO THE FINANCIAL STATEMENTS \n \n \n \nV. Changes in Accounting Principle \nA change in accounting principle results from either adopting a new accounting pronouncement or an entity adopting an \nallowable alternative accounting principle on the basis that is preferable. Generally, as applicable"
+        },
+        {
+          "pdf_page": 99,
+          "section": "Inventory note explicitly identifies FY2020 restatement.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2021/fr-02-17-2022-(final).pdf#page=99",
+          "local_path": "documents/usfr/usfr_2021.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": " \nNOTES TO THE FINANCIAL STATEMENTS \n92 \n \n \nmaterial held for sale. Stockpile material held for sale includes ores, metals, alloys, and medical supplies authorized for sale. \nOther related property consists of the following:  \n• Forfeited property consists of monetary instruments, intangible proper"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "usfr_2020",
+            "usfr_2022",
+            "usfr_2023",
+            "usfr_2024"
+          ]
+        },
+        "FM2": {
+          "status": "Potential",
+          "evidence": "Complex numerical columns and accounting signs verified, but this modern PDF is not evidence of historical-scan difficulty."
+        },
+        "FM3": {
+          "status": "Confirmed",
+          "evidence": "Restated prior-year columns plus explicit accounting-change/error explanations; original FY2020 report present."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:04:51.040195+00:00",
+        "sha256": "12823285cd2ada27a6347cdbc9217e6e853718d12cfd1614d889346422e980d5",
+        "size_bytes": 8430332,
+        "local_pdf": "documents/usfr/usfr_2021.pdf",
+        "local_page_text": "extracted/usfr_2021.jsonl",
+        "sample_visual_page": 66
+      },
+      "corpus_similarity_rationale": "Strong federal-accounting and revision analogue; modern accrual-based Financial Reports are distinct from the cash/budgetary Combined Statement series and have less historical OCR difficulty.",
+      "selected_for_pilot": true,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "U.S. Government financial report; preserve attribution and embedded third-party notices. Source website hosting alone is not blanket clearance for unrelated assets.",
+      "rights_source": "https://www.govinfo.gov/about/policies",
+      "drive_url": "https://drive.google.com/file/d/1ub2pehhjCEjooguSlndyr-Qi_CIHXYrV/view?usp=drivesdk"
+    },
+    {
+      "id": "usfr_2022",
+      "title": "2022 Financial Report of the United States Government",
+      "institution": "U.S. Department of the Treasury, Bureau of the Fiscal Service, in cooperation with OMB",
+      "year": 2023,
+      "publication_year": 2023,
+      "reporting_year": 2022,
+      "year_evidence": "Secretary letter dated in following calendar year; reporting year is separate",
+      "collection": "usfr",
+      "source_url": "https://fiscal.treasury.gov/accounting/us-financial-report/2022-report",
+      "pdf_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2022/02-16-2023-FR-(Final).pdf",
+      "text_url": null,
+      "text_url_status": "not applicable; local page text supplied",
+      "format": "PDF: digitally generated with selectable text and charts",
+      "page_count": 258,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Agency gross/net costs, earned revenues, assets/liabilities, budget-to-accrual reconciliation, dedicated collections, financial-statement notes and prior-year restatements.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 66,
+          "section": "Statement of Net Cost for FY2022.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2022/02-16-2023-FR-(Final).pdf#page=66",
+          "local_path": "documents/usfr/usfr_2022.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "      59 \nFINANCIAL STATEMENTS \n \n \n \nUnited States Government \nStatement of Net Cost \nfor the Year Ended September 30, 2022 \n(Gain)/Loss \nfrom \nGross \nEarned \nChanges in \nNet \n(In billions of dollars) \nCost \nRevenue \nSubtotal Assumptions \nCost \nDepartment of Veterans Affairs ......................."
+        },
+        {
+          "pdf_page": 67,
+          "section": "Restated FY2021 Statement of Net Cost; pair with FY2021 report PDF p66.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2022/02-16-2023-FR-(Final).pdf#page=67",
+          "local_path": "documents/usfr/usfr_2022.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": " \nFINANCIAL STATEMENTS \n                                       60 \n \n \nUnited States Government \nStatement of Net Cost \nfor the Year Ended September 30, 2021 (Restated) \n(Gain)/Loss \nfrom \nGross \nEarned \nChanges in \nNet \n(In billions of dollars) \nCost \nRevenue \nSubtotal Assumptions \nCost \nDepartment"
+        },
+        {
+          "pdf_page": 88,
+          "section": "Note 1: Smithsonian dedicated-fund reclassification and comparative SPV presentation change.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2022/02-16-2023-FR-(Final).pdf#page=88",
+          "local_path": "documents/usfr/usfr_2022.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": "81 \nNOTES TO THE FINANCIAL STATEMENTS \n \n \n \ninformation refer to the Statement of Net Cost and Note 8—Investments in Government-Sponsored Enterprises. Also, $3.8 \nbillion of FY 2021 Smithsonian dedicated collection funds were restated out of funds from dedicated collections into funds \nother than t"
+        },
+        {
+          "pdf_page": 105,
+          "section": "Note 8: prior-year GSE valuation gain reclassified from reduction of gross cost to earned revenue.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2022/02-16-2023-FR-(Final).pdf#page=105",
+          "local_path": "documents/usfr/usfr_2022.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": " \nNOTES TO THE FINANCIAL STATEMENTS \n98 \n \n \ncharacteristics as a whole. Accordingly, these entities are not consolidated into the government’s consolidated financial \nstatements; however, the value of the investments in these entities, changes in value, and related activity with these entities \nare"
+        },
+        {
+          "pdf_page": 150,
+          "section": "Note 22: Smithsonian fund reclassification changes fund categories without changing total net position.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2022/02-16-2023-FR-(Final).pdf#page=150",
+          "local_path": "documents/usfr/usfr_2022.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": "143 \nNOTES TO THE FINANCIAL STATEMENTS \n \n \n \nFederal Disability Insurance Trust Fund \nThe DI Trust Fund, administered by SSA, provides assistance and protection against the loss of earnings due to a wage \nearner’s disability in form of monetary payments.  \nLike the OASI Trust Fund, payroll taxes pr"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "usfr_2020",
+            "usfr_2021",
+            "usfr_2023",
+            "usfr_2024"
+          ]
+        },
+        "FM2": {
+          "status": "Potential",
+          "evidence": "Complex numerical columns and accounting signs verified, but this modern PDF is not evidence of historical-scan difficulty."
+        },
+        "FM3": {
+          "status": "Confirmed",
+          "evidence": "GSE gross-cost/earned-revenue and Smithsonian fund reclassifications explicitly documented; original FY2021 report present."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:05:07.855547+00:00",
+        "sha256": "05ddb48f7b6b2bdc8b5663cf8a8e15b66875981df002935ee7e7f27bd0907ad0",
+        "size_bytes": 7490975,
+        "local_pdf": "documents/usfr/usfr_2022.pdf",
+        "local_page_text": "extracted/usfr_2022.jsonl",
+        "sample_visual_page": 66
+      },
+      "corpus_similarity_rationale": "Strong federal-accounting and revision analogue; modern accrual-based Financial Reports are distinct from the cash/budgetary Combined Statement series and have less historical OCR difficulty.",
+      "selected_for_pilot": true,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "U.S. Government financial report; preserve attribution and embedded third-party notices. Source website hosting alone is not blanket clearance for unrelated assets.",
+      "rights_source": "https://www.govinfo.gov/about/policies",
+      "drive_url": "https://drive.google.com/file/d/1_YBJdJWg5Isy7WXtglUGGDInGD1Jhv1_/view?usp=drivesdk"
+    },
+    {
+      "id": "usfr_2023",
+      "title": "2023 Financial Report of the United States Government",
+      "institution": "U.S. Department of the Treasury, Bureau of the Fiscal Service, in cooperation with OMB",
+      "year": 2024,
+      "publication_year": 2024,
+      "reporting_year": 2023,
+      "year_evidence": "Secretary letter dated in following calendar year; reporting year is separate",
+      "collection": "usfr",
+      "source_url": "https://fiscal.treasury.gov/accounting/us-financial-report/2023-report",
+      "pdf_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2023/02-15-2024-FR-(final).pdf",
+      "text_url": null,
+      "text_url_status": "not applicable; local page text supplied",
+      "format": "PDF: digitally generated with selectable text and charts",
+      "page_count": 255,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Agency gross/net costs, earned revenues, assets/liabilities, budget-to-accrual reconciliation, dedicated collections, financial-statement notes and prior-year restatements.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 64,
+          "section": "Statement of Net Cost for FY2023.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2023/02-15-2024-FR-(final).pdf#page=64",
+          "local_path": "documents/usfr/usfr_2023.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "57 \nFINANCIAL STATEMENTS \n \n \n \nUnited States Government \nStatement of Net Cost \nfor the Year Ended September 30, 2023 \n(Gain)/Loss \nfrom \nGross \nEarned \nChanges in \nNet \n(In billions of dollars) \nCost \nRevenue \nSubtotal Assumptions \nCost \nDepartment of Health and Human Services \n1,875.6 \n161.2 \n1,7"
+        },
+        {
+          "pdf_page": 86,
+          "section": "Note 1.W: FY2022 comparative presentation adjusted for unmatched transactions; explicitly not a material error correction.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2023/02-15-2024-FR-(final).pdf#page=86",
+          "local_path": "documents/usfr/usfr_2023.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": "79 \nNOTES TO THE FINANCIAL STATEMENTS \n \n \n \nV. Corrections of Errors \nCorrections of errors in financial statements result from mathematical mistakes, mistakes in the application of \naccounting principles, or oversight or misuse of facts that existed at the time financial statements were prepared. "
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "usfr_2020",
+            "usfr_2021",
+            "usfr_2022",
+            "usfr_2024"
+          ]
+        },
+        "FM2": {
+          "status": "Potential",
+          "evidence": "Complex numerical columns and accounting signs verified, but this modern PDF is not evidence of historical-scan difficulty."
+        },
+        "FM3": {
+          "status": "Confirmed",
+          "evidence": "Explicit comparative FY2022 presentation change; original FY2022 report present. Not described as an error restatement."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:07:27.404623+00:00",
+        "sha256": "993b42b4b37b7794e6663c1922d364db9b7df986b44b6d55f366c62fbf9fa824",
+        "size_bytes": 6819105,
+        "local_pdf": "documents/usfr/usfr_2023.pdf",
+        "local_page_text": "extracted/usfr_2023.jsonl",
+        "sample_visual_page": 64
+      },
+      "corpus_similarity_rationale": "Strong federal-accounting and revision analogue; modern accrual-based Financial Reports are distinct from the cash/budgetary Combined Statement series and have less historical OCR difficulty.",
+      "selected_for_pilot": true,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "U.S. Government financial report; preserve attribution and embedded third-party notices. Source website hosting alone is not blanket clearance for unrelated assets.",
+      "rights_source": "https://www.govinfo.gov/about/policies",
+      "drive_url": "https://drive.google.com/file/d/1CAA0wKppIP9YMYQiGj2kpmmDkr3eEIZp/view?usp=drivesdk"
+    },
+    {
+      "id": "usfr_2024",
+      "title": "2024 Financial Report of the United States Government",
+      "institution": "U.S. Department of the Treasury, Bureau of the Fiscal Service, in cooperation with OMB",
+      "year": 2025,
+      "publication_year": 2025,
+      "reporting_year": 2024,
+      "year_evidence": "Secretary letter dated in following calendar year; reporting year is separate",
+      "collection": "usfr",
+      "source_url": "https://fiscal.treasury.gov/accounting/us-financial-report/2024",
+      "pdf_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2024/01-16-2025-FR-(Final).pdf",
+      "text_url": null,
+      "text_url_status": "not applicable; local page text supplied",
+      "format": "PDF: digitally generated with selectable text and charts",
+      "page_count": 245,
+      "page_count_status": "verified by opening local PDF",
+      "numerical_content": "Agency gross/net costs, earned revenues, assets/liabilities, budget-to-accrual reconciliation, dedicated collections, financial-statement notes and prior-year restatements.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 66,
+          "section": "Statement of Net Cost for FY2024.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2024/01-16-2025-FR-(Final).pdf#page=66",
+          "local_path": "documents/usfr/usfr_2024.pdf",
+          "inspection": "page_text_and_render_inspected",
+          "excerpt": "59 \nFY 2024 FINANCIAL STATEMENTS \n \n \n \nUnited States Government \nStatement of Net Cost \nfor the Year Ended September 30, 2024 \n(Gain)/Loss \nfrom \nGross \nEarned \nChanges in \nNet \n(In billions of dollars) \nCost \nRevenue \nSubtotal Assumptions \nCost \nDepartment of Health and Human Services \n1,907.3 \n17"
+        },
+        {
+          "pdf_page": 88,
+          "section": "Note 1.W: FY2023 comparative accrued funded payroll/leave moved from other liabilities to employee/veteran benefits.",
+          "source_url": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2024/01-16-2025-FR-(Final).pdf#page=88",
+          "local_path": "documents/usfr/usfr_2024.pdf",
+          "inspection": "page_text_inspected",
+          "excerpt": "81 \nNOTES TO THE FY 2024 FINANCIAL STATEMENTS \n \n \n \nV. Corrections of Errors \nCorrections of errors in financial statements result from mathematical mistakes, mistakes in the application of \naccounting principles, or oversight or misuse of facts that existed at the time financial statements were pr"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "Consecutive annual reports and repeated quantitative sections verified in this collection; question-level necessity for multiple reports has not been tested.",
+          "related_ids": [
+            "usfr_2020",
+            "usfr_2021",
+            "usfr_2022",
+            "usfr_2023"
+          ]
+        },
+        "FM2": {
+          "status": "Potential",
+          "evidence": "Complex numerical columns and accounting signs verified, but this modern PDF is not evidence of historical-scan difficulty."
+        },
+        "FM3": {
+          "status": "Confirmed",
+          "evidence": "Explicit comparative FY2023 liability-category presentation change; original FY2023 report present."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Distinct category/accounting scopes observed in the cited tables: gross/net, receipt/expenditure, departmental/fund or bank/system totals."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual and/or monthly numerical observations exist; cross-document ratios, growth or series calculations are plausible. No generated task or solver test performed."
+        }
+      },
+      "verification_status": "downloaded_200_pdf_validated_text_and_sample_page_inspected",
+      "verification": {
+        "source_http_status": 200,
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-04T21:07:35.774508+00:00",
+        "sha256": "979aff81b3d58c8f557d47a8436fe1d79f6bffa2b68b15297046987070ccdb0b",
+        "size_bytes": 6925994,
+        "local_pdf": "documents/usfr/usfr_2024.pdf",
+        "local_page_text": "extracted/usfr_2024.jsonl",
+        "sample_visual_page": 66
+      },
+      "corpus_similarity_rationale": "Strong federal-accounting and revision analogue; modern accrual-based Financial Reports are distinct from the cash/budgetary Combined Statement series and have less historical OCR difficulty.",
+      "selected_for_pilot": true,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Benchmark PDF bytes were gated and public LFS hashes masked. Different series/IDs are not proof of no shared content."
+      },
+      "rights_notes": "U.S. Government financial report; preserve attribution and embedded third-party notices. Source website hosting alone is not blanket clearance for unrelated assets.",
+      "rights_source": "https://www.govinfo.gov/about/policies",
+      "drive_url": "https://drive.google.com/file/d/1BfgF74_ocb1xzBmsX4Zwf_z08LkXLfpe/view?usp=drivesdk"
+    }
+  ]
+}

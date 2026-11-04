@@ -1,0 +1,35 @@
+[
+  {
+    "filename": "example_1_historical_payments.jpg",
+    "url": "https://www.databricks.com/sites/default/files/blog_images/introducing-officeqa-pro-v2-a-new-benchmark-blog-img-6.jpg",
+    "resolved_url": "https://www.databricks.com/sites/default/files/blog_images/introducing-officeqa-pro-v2-a-new-benchmark-blog-img-6.jpg",
+    "status": 200,
+    "sha256": "fd59810615b5894718b06e37b85dd84421453a3f8a6e2d3e2e8fe9d00fdb9e16",
+    "bytes": 35101,
+    "training_allowed": false,
+    "use": "Public benchmark illustration; reference only",
+    "source_page": "https://www.databricks.com/blog/introducing-officeqa-pro-v2-new-benchmark-enterprise-grounded-reasoning"
+  },
+  {
+    "filename": "example_2_medicare_outlays.png",
+    "url": "https://www.databricks.com/sites/default/files/blog_images/introducing-officeqa-pro-v2-a-new-benchmark-blog-img-7.png",
+    "resolved_url": "https://www.databricks.com/sites/default/files/blog_images/introducing-officeqa-pro-v2-a-new-benchmark-blog-img-7.png",
+    "status": 200,
+    "sha256": "1b40fe5871f4d5fda1662bbcf440458cccca9c70ce53de9aa4bacbac6fd8e3bc",
+    "bytes": 158550,
+    "training_allowed": false,
+    "use": "Public benchmark illustration; reference only",
+    "source_page": "https://www.databricks.com/blog/introducing-officeqa-pro-v2-new-benchmark-enterprise-grounded-reasoning"
+  },
+  {
+    "filename": "example_3_agency_outlays.jpg",
+    "url": "https://www.databricks.com/sites/default/files/inline-images/statement-of-operations.jpg",
+    "resolved_url": "https://www.databricks.com/sites/default/files/inline-images/statement-of-operations.jpg",
+    "status": 200,
+    "sha256": "93bc7cef4c84a5830c449edfcb509e71b0e98afe933fca89949d6de50c98b074",
+    "bytes": 175921,
+    "training_allowed": false,
+    "use": "Public benchmark illustration; reference only",
+    "source_page": "https://www.databricks.com/blog/introducing-officeqa-pro-v2-new-benchmark-enterprise-grounded-reasoning"
+  }
+]

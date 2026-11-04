@@ -1,0 +1,273 @@
+{
+  "documents_checked": [
+    {
+      "id": "frb_1930",
+      "bytes": 11282797,
+      "pages": 370,
+      "sha256": "3436b022bfa0be3bbf84c058eaaf7b094929b9e9211582168617e60647cafc0d",
+      "normalized_text_sha256": "1b8c6f07b8628f6b9db3611e83527e1cffdd6035f9000939287f1f75d96302d7"
+    },
+    {
+      "id": "frb_1931",
+      "bytes": 9719652,
+      "pages": 314,
+      "sha256": "78b87ab14376b316d20b25b0cefc9d573149026764ae1f79cef3aa4d112b9662",
+      "normalized_text_sha256": "017f1de7c0d1c37c24e7fd4b99b97015a522295e392cbaf849aa93172fa2b626"
+    },
+    {
+      "id": "frb_1932",
+      "bytes": 25126723,
+      "pages": 367,
+      "sha256": "d7dcda4e61dd41b842efa9d8dac94eb52733977c4b1c4072684aea7c26601710",
+      "normalized_text_sha256": "2758b4e92d494ab52cb4795de762e6f4ee8a2d0fc21cf4a45ef43e15c4181f42"
+    },
+    {
+      "id": "frb_1933",
+      "bytes": 11231386,
+      "pages": 413,
+      "sha256": "37ea9327f30fcce8818680d236841ce711d6dd59c46364175ddbf85138ce4c3c",
+      "normalized_text_sha256": "6e7883eb9c8fff8a7bcfd59023cdff6d22cadf9dd8e2bc8466f538c240a6bc77"
+    },
+    {
+      "id": "frb_1934",
+      "bytes": 7593233,
+      "pages": 284,
+      "sha256": "b4d230ae51ef820adad12a11d9fc0c184502d43a8d6841e674bcc58418351fb3",
+      "normalized_text_sha256": "5af7396c21e5b9c36e82e5e97c8ff0e700ccb3cb5e75eb58fc6f0d9e1a5a5cea"
+    },
+    {
+      "id": "treasurer_1927",
+      "bytes": 10489372,
+      "pages": 80,
+      "sha256": "f81abfb7a94fdfe497ca3f1c39db21b61d015a734b6d086899b0907ceee91338",
+      "normalized_text_sha256": "97c7d0df5b99e489995afe7c398d1607abf3bdc3c4021c1615c949f08b03c5a0"
+    },
+    {
+      "id": "treasurer_1928",
+      "bytes": 10791717,
+      "pages": 80,
+      "sha256": "397a428a50198fff4c823df113a58894a8b0d39f96a77cc9b02633921baec4f8",
+      "normalized_text_sha256": "b76b50201457f9b12adc762df074c7fdac8e26508c017b864efbd0d392403b5f"
+    },
+    {
+      "id": "treasurer_1929",
+      "bytes": 11467212,
+      "pages": 88,
+      "sha256": "07678ac0fae96197ad13246b7bc1a6721c27c3b86cc705254dbab26dd0745508",
+      "normalized_text_sha256": "7b8b126c614bcf9e26621657e0355b2d5aaf6dbba903fff8c58e79f96663fa09"
+    },
+    {
+      "id": "treasurer_1930",
+      "bytes": 12696397,
+      "pages": 96,
+      "sha256": "d72a68407f84974bdaba8b2cf103ff9899273b270e398245a224e023b53b3d44",
+      "normalized_text_sha256": "f66edfbea3804f33bec91fe2621be380feb586e284721321405365fc1d43999d"
+    },
+    {
+      "id": "treasurer_1931",
+      "bytes": 12503221,
+      "pages": 99,
+      "sha256": "e404ca05e9c4976d9c582452c327ad70221e3cd246ccf404f6d71d5104149acf",
+      "normalized_text_sha256": "10650b0a74096ef69d46ec9250dca6a1719f1e91c7d7b4ffb9a39ef3b65d186c"
+    },
+    {
+      "id": "usfr_2020",
+      "bytes": 7469177,
+      "pages": 265,
+      "sha256": "3e3848db3943b38d297c1945381a7425206090af0a3d8b34c3d95739d9f89869",
+      "normalized_text_sha256": "455a6699f3212308d1eea6cced26d05b95f7f591630eebed313acc922f310012"
+    },
+    {
+      "id": "usfr_2021",
+      "bytes": 8430332,
+      "pages": 265,
+      "sha256": "12823285cd2ada27a6347cdbc9217e6e853718d12cfd1614d889346422e980d5",
+      "normalized_text_sha256": "a0a2e48adf867902a1b7d6838ae93cd1627addca0f5e5bb1a3c09d7a6d90ceff"
+    },
+    {
+      "id": "usfr_2022",
+      "bytes": 7490975,
+      "pages": 258,
+      "sha256": "05ddb48f7b6b2bdc8b5663cf8a8e15b66875981df002935ee7e7f27bd0907ad0",
+      "normalized_text_sha256": "b7a9aa164a318823c6244b958429704f67bf9df4cc442766efdc1bae477ebc71"
+    },
+    {
+      "id": "usfr_2023",
+      "bytes": 6819105,
+      "pages": 255,
+      "sha256": "993b42b4b37b7794e6663c1922d364db9b7df986b44b6d55f366c62fbf9fa824",
+      "normalized_text_sha256": "23a01e8d3cc002828c48889986cffdc4ed05cb4e479c519550a84b70d97b0244"
+    },
+    {
+      "id": "usfr_2024",
+      "bytes": 6925994,
+      "pages": 245,
+      "sha256": "979aff81b3d58c8f557d47a8436fe1d79f6bffa2b68b15297046987070ccdb0b",
+      "normalized_text_sha256": "63702b413158859d2c102f2f5dd152a7727b882f1749e31fba2ba9124f9e4a11"
+    }
+  ],
+  "exact_pdf_duplicate_groups": [],
+  "exact_normalized_text_duplicate_groups": [],
+  "same_series_year_title_groups": [],
+  "same_pdf_url_groups": [],
+  "near_document_duplicate_threshold": 0.85,
+  "near_document_duplicate_candidates": [],
+  "top_content_overlap_pairs": [
+    {
+      "a": "usfr_2022",
+      "b": "usfr_2023",
+      "jaccard": 0.5572,
+      "containment_of_smaller": 0.7283
+    },
+    {
+      "a": "usfr_2023",
+      "b": "usfr_2024",
+      "jaccard": 0.5468,
+      "containment_of_smaller": 0.7227
+    },
+    {
+      "a": "usfr_2021",
+      "b": "usfr_2022",
+      "jaccard": 0.5071,
+      "containment_of_smaller": 0.6787
+    },
+    {
+      "a": "usfr_2020",
+      "b": "usfr_2021",
+      "jaccard": 0.4782,
+      "containment_of_smaller": 0.6499
+    },
+    {
+      "a": "usfr_2022",
+      "b": "usfr_2024",
+      "jaccard": 0.4572,
+      "containment_of_smaller": 0.6531
+    },
+    {
+      "a": "usfr_2021",
+      "b": "usfr_2023",
+      "jaccard": 0.4474,
+      "containment_of_smaller": 0.6347
+    },
+    {
+      "a": "usfr_2020",
+      "b": "usfr_2022",
+      "jaccard": 0.4022,
+      "containment_of_smaller": 0.576
+    },
+    {
+      "a": "usfr_2021",
+      "b": "usfr_2024",
+      "jaccard": 0.3908,
+      "containment_of_smaller": 0.59
+    },
+    {
+      "a": "usfr_2020",
+      "b": "usfr_2023",
+      "jaccard": 0.3821,
+      "containment_of_smaller": 0.565
+    },
+    {
+      "a": "usfr_2020",
+      "b": "usfr_2024",
+      "jaccard": 0.3446,
+      "containment_of_smaller": 0.5357
+    },
+    {
+      "a": "treasurer_1930",
+      "b": "treasurer_1931",
+      "jaccard": 0.173,
+      "containment_of_smaller": 0.305
+    },
+    {
+      "a": "treasurer_1928",
+      "b": "treasurer_1929",
+      "jaccard": 0.1642,
+      "containment_of_smaller": 0.2924
+    },
+    {
+      "a": "treasurer_1929",
+      "b": "treasurer_1930",
+      "jaccard": 0.1497,
+      "containment_of_smaller": 0.284
+    },
+    {
+      "a": "treasurer_1927",
+      "b": "treasurer_1928",
+      "jaccard": 0.1434,
+      "containment_of_smaller": 0.2556
+    },
+    {
+      "a": "frb_1931",
+      "b": "frb_1932",
+      "jaccard": 0.1331,
+      "containment_of_smaller": 0.2525
+    },
+    {
+      "a": "frb_1932",
+      "b": "frb_1933",
+      "jaccard": 0.1264,
+      "containment_of_smaller": 0.2398
+    },
+    {
+      "a": "treasurer_1929",
+      "b": "treasurer_1931",
+      "jaccard": 0.1178,
+      "containment_of_smaller": 0.222
+    },
+    {
+      "a": "frb_1930",
+      "b": "frb_1931",
+      "jaccard": 0.1166,
+      "containment_of_smaller": 0.2305
+    },
+    {
+      "a": "treasurer_1927",
+      "b": "treasurer_1929",
+      "jaccard": 0.1152,
+      "containment_of_smaller": 0.2184
+    },
+    {
+      "a": "treasurer_1928",
+      "b": "treasurer_1930",
+      "jaccard": 0.1107,
+      "containment_of_smaller": 0.2261
+    }
+  ],
+  "cross_document_exact_normalized_page_matches_min_500_chars": [
+    [
+      {
+        "document_id": "usfr_2021",
+        "pdf_page": 58
+      },
+      {
+        "document_id": "usfr_2022",
+        "pdf_page": 58
+      }
+    ],
+    [
+      {
+        "document_id": "usfr_2021",
+        "pdf_page": 62
+      },
+      {
+        "document_id": "usfr_2022",
+        "pdf_page": 62
+      }
+    ]
+  ],
+  "method": "SHA-256 bytes; exact normalized full text; title+series+report year; canonical resolved URL; five-token shingle Jaccard with numbers retained; exact long-page text hashes.",
+  "limitations": [
+    "Jaccard threshold is heuristic and not calibrated to this corpus.",
+    "No perceptual image deduplication or fuzzy table-cell alignment was performed.",
+    "Similar annual reports and explicit restatements are retained as distinct vintages; do not erase changed values.",
+    "No actual benchmark PDF or full-text comparison was possible."
+  ],
+  "benchmark_check": {
+    "manifest_pdf_count": 1435,
+    "usable_lfs_sha256_count": 0,
+    "identity_matches": [],
+    "full_byte_text_dedup_status": "not performed; gated bytes and masked public LFS hashes"
+  },
+  "decision": "Keep all 15 source documents. Use only the 10-document pilot allowlist for generation. Retain version relationships and keep overlapping evidence in the same future split."
+}
