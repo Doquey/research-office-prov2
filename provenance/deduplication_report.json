@@ -104,6 +104,34 @@
       "pages": 245,
       "sha256": "979aff81b3d58c8f557d47a8436fe1d79f6bffa2b68b15297046987070ccdb0b",
       "normalized_text_sha256": "63702b413158859d2c102f2f5dd152a7727b882f1749e31fba2ba9124f9e4a11"
+    },
+    {
+      "id": "bnsf_2015",
+      "bytes": 1384069,
+      "pages": 64,
+      "sha256": "97dacbafdc322728ebdc06582ad8cab10c4fcbf83b5c7556b25c1ad0a997622d",
+      "normalized_text_sha256": "9381039aecf73361713970ba209d678b9e5ad230450236d60361c65dab50af34"
+    },
+    {
+      "id": "bnsf_2018",
+      "bytes": 2080108,
+      "pages": 63,
+      "sha256": "2b23a3f914a9df0feec7fc2cadfd4035d87599726f96b39163ccbecbb1a9d6df",
+      "normalized_text_sha256": "9ee8d8a8d12cb05db8de499c14b7409cb58207555aa0292a58b44716ed17eab7"
+    },
+    {
+      "id": "bnsf_2021",
+      "bytes": 1596111,
+      "pages": 59,
+      "sha256": "ba9549ae36a2c56579bf68c17b37a8ec4f2895a4b31e5bfcd4b25b4b1afc3836",
+      "normalized_text_sha256": "6213182f76e3671b6ef2c5125460e72481c1b9ee8dc6f0a647fec0e8f34aa3c2"
+    },
+    {
+      "id": "bnsf_2024",
+      "bytes": 3407525,
+      "pages": 61,
+      "sha256": "8eb30f8671f1b13efc7707410b6752666572c0140d4818977240a81d2304134b",
+      "normalized_text_sha256": "856d7689f47c1d8959224313e45cc28b96d2bcd0c1afe0701b81952119cf9e9b"
     }
   ],
   "exact_pdf_duplicate_groups": [],
@@ -113,6 +141,12 @@
   "near_document_duplicate_threshold": 0.85,
   "near_document_duplicate_candidates": [],
   "top_content_overlap_pairs": [
+    {
+      "a": "bnsf_2021",
+      "b": "bnsf_2024",
+      "jaccard": 0.6101,
+      "containment_of_smaller": 0.7767
+    },
     {
       "a": "usfr_2022",
       "b": "usfr_2023",
@@ -124,6 +158,12 @@
       "b": "usfr_2024",
       "jaccard": 0.5468,
       "containment_of_smaller": 0.7227
+    },
+    {
+      "a": "bnsf_2015",
+      "b": "bnsf_2018",
+      "jaccard": 0.5327,
+      "containment_of_smaller": 0.7014
     },
     {
       "a": "usfr_2021",
@@ -150,10 +190,22 @@
       "containment_of_smaller": 0.6347
     },
     {
+      "a": "bnsf_2018",
+      "b": "bnsf_2021",
+      "jaccard": 0.4433,
+      "containment_of_smaller": 0.6595
+    },
+    {
       "a": "usfr_2020",
       "b": "usfr_2022",
       "jaccard": 0.4022,
       "containment_of_smaller": 0.576
+    },
+    {
+      "a": "bnsf_2018",
+      "b": "bnsf_2024",
+      "jaccard": 0.3913,
+      "containment_of_smaller": 0.5886
     },
     {
       "a": "usfr_2021",
@@ -168,10 +220,22 @@
       "containment_of_smaller": 0.565
     },
     {
+      "a": "bnsf_2015",
+      "b": "bnsf_2021",
+      "jaccard": 0.3656,
+      "containment_of_smaller": 0.5693
+    },
+    {
       "a": "usfr_2020",
       "b": "usfr_2024",
       "jaccard": 0.3446,
       "containment_of_smaller": 0.5357
+    },
+    {
+      "a": "bnsf_2015",
+      "b": "bnsf_2024",
+      "jaccard": 0.3281,
+      "containment_of_smaller": 0.5122
     },
     {
       "a": "treasurer_1930",
@@ -196,42 +260,6 @@
       "b": "treasurer_1928",
       "jaccard": 0.1434,
       "containment_of_smaller": 0.2556
-    },
-    {
-      "a": "frb_1931",
-      "b": "frb_1932",
-      "jaccard": 0.1331,
-      "containment_of_smaller": 0.2525
-    },
-    {
-      "a": "frb_1932",
-      "b": "frb_1933",
-      "jaccard": 0.1264,
-      "containment_of_smaller": 0.2398
-    },
-    {
-      "a": "treasurer_1929",
-      "b": "treasurer_1931",
-      "jaccard": 0.1178,
-      "containment_of_smaller": 0.222
-    },
-    {
-      "a": "frb_1930",
-      "b": "frb_1931",
-      "jaccard": 0.1166,
-      "containment_of_smaller": 0.2305
-    },
-    {
-      "a": "treasurer_1927",
-      "b": "treasurer_1929",
-      "jaccard": 0.1152,
-      "containment_of_smaller": 0.2184
-    },
-    {
-      "a": "treasurer_1928",
-      "b": "treasurer_1930",
-      "jaccard": 0.1107,
-      "containment_of_smaller": 0.2261
     }
   ],
   "cross_document_exact_normalized_page_matches_min_500_chars": [
@@ -254,6 +282,16 @@
         "document_id": "usfr_2022",
         "pdf_page": 62
       }
+    ],
+    [
+      {
+        "document_id": "bnsf_2021",
+        "pdf_page": 29
+      },
+      {
+        "document_id": "bnsf_2024",
+        "pdf_page": 29
+      }
     ]
   ],
   "method": "SHA-256 bytes; exact normalized full text; title+series+report year; canonical resolved URL; five-token shingle Jaccard with numbers retained; exact long-page text hashes.",
@@ -269,5 +307,5 @@
     "identity_matches": [],
     "full_byte_text_dedup_status": "not performed; gated bytes and masked public LFS hashes"
   },
-  "decision": "Keep all 15 source documents. Use only the 10-document pilot allowlist for generation. Retain version relationships and keep overlapping evidence in the same future split."
+  "decision": "Use ingestion_allowlist.json for generation. Retain distinct reporting vintages and keep overlapping evidence in the same future split."
 }

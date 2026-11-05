@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-11-04",
-  "candidate_count": 15,
+  "as_of": "2026-11-05",
+  "candidate_count": 19,
   "page_numbering": "All evidence PDF pages are 1-based; printed labels may differ.",
   "status_semantics": {
     "Confirmed": "Relevant document feature observed, not a confirmed model failure.",
@@ -1329,6 +1329,342 @@
       "rights_notes": "U.S. Government financial report; preserve attribution and embedded third-party notices. Source website hosting alone is not blanket clearance for unrelated assets.",
       "rights_source": "https://www.govinfo.gov/about/policies",
       "drive_url": "https://drive.google.com/file/d/1BfgF74_ocb1xzBmsX4Zwf_z08LkXLfpe/view?usp=drivesdk"
+    },
+    {
+      "id": "bnsf_2015",
+      "title": "Burlington Northern Santa Fe, LLC – Form 10-K for the fiscal year ended December 31, 2015",
+      "institution": "Burlington Northern Santa Fe, LLC",
+      "year": 2016,
+      "publication_year": 2016,
+      "reporting_year": 2015,
+      "filing_date": "2016-02-29",
+      "sec_accession_number": "0000934612-16-000034",
+      "year_evidence": "Issuer PDF cover and SEC filing metadata for CIK 934612",
+      "collection": "bnsf",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/934612/000093461216000034/llc12312015-10k.htm",
+      "pdf_url": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2015.pdf",
+      "text_url": "https://www.sec.gov/Archives/edgar/data/934612/000093461216000034/llc12312015-10k.htm",
+      "text_url_status": "SEC primary filing HTML retrieved and statement values compared with issuer PDF",
+      "format": "Born-digital Form 10-K PDF",
+      "page_count": 64,
+      "page_count_status": "Verified with PyMuPDF and Poppler",
+      "numerical_content": "Three years of consolidated revenue, investing cash outflows and equipment purchases, USD millions.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 19,
+          "printed_page": 17,
+          "section": "Revenues, consolidated, USD millions",
+          "source_url": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2015.pdf#page=19",
+          "local_path": "documents/bnsf/bnsf_2015.pdf",
+          "render": "evidence/bnsf/2015_income.png",
+          "inspection": "PDF table and rendered page inspected; three annual figures per row matched SEC HTML"
+        },
+        {
+          "pdf_page": 22,
+          "printed_page": 20,
+          "section": "Investing activities. Capital expenditures excluding equipment and acquisition of equipment, both cash outflows in USD millions",
+          "source_url": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2015.pdf#page=22",
+          "local_path": "documents/bnsf/bnsf_2015.pdf",
+          "render": "evidence/bnsf/2015_cash_flows.png",
+          "inspection": "PDF table and rendered page inspected; three annual figures per row matched SEC HTML"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "The four selected statements span distinct three-year windows."
+        },
+        "FM2": {
+          "status": "Confirmed",
+          "evidence": "Three year columns with parenthesized cash outflows and a shared units header."
+        },
+        "FM3": {
+          "status": "Unsupported",
+          "evidence": "No restatement has been verified for the selected rows."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Capital expenditures excluding equipment and acquisition of equipment are separate cash-flow lines."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual values are available for a multi-year ratio. No model run performed."
+        }
+      },
+      "verification_status": "PDF and SEC HTML inspected; rendered tables and checksums recorded",
+      "verification": {
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-05T08:37:43.534207+00:00",
+        "sha256": "97dacbafdc322728ebdc06582ad8cab10c4fcbf83b5c7556b25c1ad0a997622d",
+        "size_bytes": 1384069,
+        "local_pdf": "documents/bnsf/bnsf_2015.pdf",
+        "local_page_text": "extracted/bnsf_2015.jsonl",
+        "sample_visual_page": 22
+      },
+      "corpus_similarity_rationale": "Company financial statements combine multi-year figures, scope choices, signs and unit headers.",
+      "selected_for_pilot": true,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Checked public filenames for BNSF and SEC accession identity. No benchmark bytes were compared."
+      },
+      "rights_notes": "The SEC describes EDGAR public filing content as available for reuse. The issuer PDF is a separate representation of the filing; this repository grants no additional rights to issuer marks or exhibits.",
+      "rights_source": "https://www.sec.gov/about/webmaster-frequently-asked-questions",
+      "drive_url": null
+    },
+    {
+      "id": "bnsf_2018",
+      "title": "Burlington Northern Santa Fe, LLC – Form 10-K for the fiscal year ended December 31, 2018",
+      "institution": "Burlington Northern Santa Fe, LLC",
+      "year": 2019,
+      "publication_year": 2019,
+      "reporting_year": 2018,
+      "filing_date": "2019-02-25",
+      "sec_accession_number": "0000934612-19-000005",
+      "year_evidence": "Issuer PDF cover and SEC filing metadata for CIK 934612",
+      "collection": "bnsf",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/934612/000093461219000005/llc12311810k.htm",
+      "pdf_url": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2018.pdf",
+      "text_url": "https://www.sec.gov/Archives/edgar/data/934612/000093461219000005/llc12311810k.htm",
+      "text_url_status": "SEC primary filing HTML retrieved and statement values compared with issuer PDF",
+      "format": "Born-digital Form 10-K PDF",
+      "page_count": 63,
+      "page_count_status": "Verified with PyMuPDF and Poppler",
+      "numerical_content": "Three years of consolidated revenue, investing cash outflows and equipment purchases, USD millions.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 19,
+          "printed_page": 17,
+          "section": "Revenues, consolidated, USD millions",
+          "source_url": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2018.pdf#page=19",
+          "local_path": "documents/bnsf/bnsf_2018.pdf",
+          "render": "evidence/bnsf/2018_income.png",
+          "inspection": "PDF table and rendered page inspected; three annual figures per row matched SEC HTML"
+        },
+        {
+          "pdf_page": 22,
+          "printed_page": 20,
+          "section": "Investing activities. Capital expenditures excluding equipment and acquisition of equipment, both cash outflows in USD millions",
+          "source_url": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2018.pdf#page=22",
+          "local_path": "documents/bnsf/bnsf_2018.pdf",
+          "render": "evidence/bnsf/2018_cash_flows.png",
+          "inspection": "PDF table and rendered page inspected; three annual figures per row matched SEC HTML"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "The four selected statements span distinct three-year windows."
+        },
+        "FM2": {
+          "status": "Confirmed",
+          "evidence": "Three year columns with parenthesized cash outflows and a shared units header."
+        },
+        "FM3": {
+          "status": "Unsupported",
+          "evidence": "No restatement has been verified for the selected rows."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Capital expenditures excluding equipment and acquisition of equipment are separate cash-flow lines."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual values are available for a multi-year ratio. No model run performed."
+        }
+      },
+      "verification_status": "PDF and SEC HTML inspected; rendered tables and checksums recorded",
+      "verification": {
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-05T08:37:43.562207+00:00",
+        "sha256": "2b23a3f914a9df0feec7fc2cadfd4035d87599726f96b39163ccbecbb1a9d6df",
+        "size_bytes": 2080108,
+        "local_pdf": "documents/bnsf/bnsf_2018.pdf",
+        "local_page_text": "extracted/bnsf_2018.jsonl",
+        "sample_visual_page": 22
+      },
+      "corpus_similarity_rationale": "Company financial statements combine multi-year figures, scope choices, signs and unit headers.",
+      "selected_for_pilot": true,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Checked public filenames for BNSF and SEC accession identity. No benchmark bytes were compared."
+      },
+      "rights_notes": "The SEC describes EDGAR public filing content as available for reuse. The issuer PDF is a separate representation of the filing; this repository grants no additional rights to issuer marks or exhibits.",
+      "rights_source": "https://www.sec.gov/about/webmaster-frequently-asked-questions",
+      "drive_url": null
+    },
+    {
+      "id": "bnsf_2021",
+      "title": "Burlington Northern Santa Fe, LLC – Form 10-K for the fiscal year ended December 31, 2021",
+      "institution": "Burlington Northern Santa Fe, LLC",
+      "year": 2022,
+      "publication_year": 2022,
+      "reporting_year": 2021,
+      "filing_date": "2022-02-28",
+      "sec_accession_number": "0000934612-22-000005",
+      "year_evidence": "Issuer PDF cover and SEC filing metadata for CIK 934612",
+      "collection": "bnsf",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/934612/000093461222000005/bni-20211231.htm",
+      "pdf_url": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2021.pdf",
+      "text_url": "https://www.sec.gov/Archives/edgar/data/934612/000093461222000005/bni-20211231.htm",
+      "text_url_status": "SEC primary filing HTML retrieved and statement values compared with issuer PDF",
+      "format": "Born-digital Form 10-K PDF",
+      "page_count": 59,
+      "page_count_status": "Verified with PyMuPDF and Poppler",
+      "numerical_content": "Three years of consolidated revenue, investing cash outflows and equipment purchases, USD millions.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 22,
+          "printed_page": 20,
+          "section": "Revenues, consolidated, USD millions",
+          "source_url": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2021.pdf#page=22",
+          "local_path": "documents/bnsf/bnsf_2021.pdf",
+          "render": "evidence/bnsf/2021_income.png",
+          "inspection": "PDF table and rendered page inspected; three annual figures per row matched SEC HTML"
+        },
+        {
+          "pdf_page": 25,
+          "printed_page": 23,
+          "section": "Investing activities. Capital expenditures excluding equipment and acquisition of equipment, both cash outflows in USD millions",
+          "source_url": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2021.pdf#page=25",
+          "local_path": "documents/bnsf/bnsf_2021.pdf",
+          "render": "evidence/bnsf/2021_cash_flows.png",
+          "inspection": "PDF table and rendered page inspected; three annual figures per row matched SEC HTML"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "The four selected statements span distinct three-year windows."
+        },
+        "FM2": {
+          "status": "Confirmed",
+          "evidence": "Three year columns with parenthesized cash outflows and a shared units header."
+        },
+        "FM3": {
+          "status": "Unsupported",
+          "evidence": "No restatement has been verified for the selected rows."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Capital expenditures excluding equipment and acquisition of equipment are separate cash-flow lines."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual values are available for a multi-year ratio. No model run performed."
+        }
+      },
+      "verification_status": "PDF and SEC HTML inspected; rendered tables and checksums recorded",
+      "verification": {
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-05T08:37:43.514207+00:00",
+        "sha256": "ba9549ae36a2c56579bf68c17b37a8ec4f2895a4b31e5bfcd4b25b4b1afc3836",
+        "size_bytes": 1596111,
+        "local_pdf": "documents/bnsf/bnsf_2021.pdf",
+        "local_page_text": "extracted/bnsf_2021.jsonl",
+        "sample_visual_page": 25
+      },
+      "corpus_similarity_rationale": "Company financial statements combine multi-year figures, scope choices, signs and unit headers.",
+      "selected_for_pilot": true,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Checked public filenames for BNSF and SEC accession identity. No benchmark bytes were compared."
+      },
+      "rights_notes": "The SEC describes EDGAR public filing content as available for reuse. The issuer PDF is a separate representation of the filing; this repository grants no additional rights to issuer marks or exhibits.",
+      "rights_source": "https://www.sec.gov/about/webmaster-frequently-asked-questions",
+      "drive_url": null
+    },
+    {
+      "id": "bnsf_2024",
+      "title": "Burlington Northern Santa Fe, LLC – Form 10-K for the fiscal year ended December 31, 2024",
+      "institution": "Burlington Northern Santa Fe, LLC",
+      "year": 2025,
+      "publication_year": 2025,
+      "reporting_year": 2024,
+      "filing_date": "2025-02-24",
+      "sec_accession_number": "0000934612-25-000003",
+      "year_evidence": "Issuer PDF cover and SEC filing metadata for CIK 934612",
+      "collection": "bnsf",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/934612/000093461225000003/bni-20241231.htm",
+      "pdf_url": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2024.pdf",
+      "text_url": "https://www.sec.gov/Archives/edgar/data/934612/000093461225000003/bni-20241231.htm",
+      "text_url_status": "SEC primary filing HTML retrieved and statement values compared with issuer PDF",
+      "format": "Born-digital Form 10-K PDF",
+      "page_count": 61,
+      "page_count_status": "Verified with PyMuPDF and Poppler",
+      "numerical_content": "Three years of consolidated revenue, investing cash outflows and equipment purchases, USD millions.",
+      "relevant_sections_pages": [
+        {
+          "pdf_page": 22,
+          "printed_page": 20,
+          "section": "Revenues, consolidated, USD millions",
+          "source_url": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2024.pdf#page=22",
+          "local_path": "documents/bnsf/bnsf_2024.pdf",
+          "render": "evidence/bnsf/2024_income.png",
+          "inspection": "PDF table and rendered page inspected; three annual figures per row matched SEC HTML"
+        },
+        {
+          "pdf_page": 25,
+          "printed_page": 23,
+          "section": "Investing activities. Capital expenditures excluding equipment and acquisition of equipment, both cash outflows in USD millions",
+          "source_url": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2024.pdf#page=25",
+          "local_path": "documents/bnsf/bnsf_2024.pdf",
+          "render": "evidence/bnsf/2024_cash_flows.png",
+          "inspection": "PDF table and rendered page inspected; three annual figures per row matched SEC HTML"
+        }
+      ],
+      "failure_mode_mapping": {
+        "FM1": {
+          "status": "Potential",
+          "evidence": "The four selected statements span distinct three-year windows."
+        },
+        "FM2": {
+          "status": "Confirmed",
+          "evidence": "Three year columns with parenthesized cash outflows and a shared units header."
+        },
+        "FM3": {
+          "status": "Unsupported",
+          "evidence": "No restatement has been verified for the selected rows."
+        },
+        "FM4": {
+          "status": "Confirmed",
+          "evidence": "Capital expenditures excluding equipment and acquisition of equipment are separate cash-flow lines."
+        },
+        "FM5": {
+          "status": "Potential",
+          "evidence": "Annual values are available for a multi-year ratio. No model run performed."
+        }
+      },
+      "verification_status": "PDF and SEC HTML inspected; rendered tables and checksums recorded",
+      "verification": {
+        "pdf_http_status": 200,
+        "retrieved_at": "2026-11-05T08:37:44.170205+00:00",
+        "sha256": "8eb30f8671f1b13efc7707410b6752666572c0140d4818977240a81d2304134b",
+        "size_bytes": 3407525,
+        "local_pdf": "documents/bnsf/bnsf_2024.pdf",
+        "local_page_text": "extracted/bnsf_2024.jsonl",
+        "sample_visual_page": 25
+      },
+      "corpus_similarity_rationale": "Company financial statements combine multi-year figures, scope choices, signs and unit headers.",
+      "selected_for_pilot": true,
+      "model_failure_observed": false,
+      "contamination_check": {
+        "status": "no_manifest_identity_match; full_content_comparison_pending",
+        "benchmark_manifest_count": 1435,
+        "package_id_matches": [],
+        "limitation": "Checked public filenames for BNSF and SEC accession identity. No benchmark bytes were compared."
+      },
+      "rights_notes": "The SEC describes EDGAR public filing content as available for reuse. The issuer PDF is a separate representation of the filing; this repository grants no additional rights to issuer marks or exhibits.",
+      "rights_source": "https://www.sec.gov/about/webmaster-frequently-asked-questions",
+      "drive_url": null
     }
   ]
 }

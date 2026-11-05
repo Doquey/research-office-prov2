@@ -1,0 +1,116 @@
+[
+  {
+    "id": "frb_1930",
+    "publisher_pdf": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1930.pdf",
+    "local_pdf": "documents/frb/frb_1930.pdf",
+    "sha256": "3436b022bfa0be3bbf84c058eaaf7b094929b9e9211582168617e60647cafc0d"
+  },
+  {
+    "id": "frb_1931",
+    "publisher_pdf": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1931.pdf",
+    "local_pdf": "documents/frb/frb_1931.pdf",
+    "sha256": "78b87ab14376b316d20b25b0cefc9d573149026764ae1f79cef3aa4d112b9662"
+  },
+  {
+    "id": "frb_1932",
+    "publisher_pdf": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1932.pdf",
+    "local_pdf": "documents/frb/frb_1932.pdf",
+    "sha256": "d7dcda4e61dd41b842efa9d8dac94eb52733977c4b1c4072684aea7c26601710"
+  },
+  {
+    "id": "frb_1933",
+    "publisher_pdf": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1933.pdf",
+    "local_pdf": "documents/frb/frb_1933.pdf",
+    "sha256": "37ea9327f30fcce8818680d236841ce711d6dd59c46364175ddbf85138ce4c3c"
+  },
+  {
+    "id": "frb_1934",
+    "publisher_pdf": "https://fraser.stlouisfed.org/files/docs/publications/arfr/1930s/arfr_1934.pdf",
+    "local_pdf": "documents/frb/frb_1934.pdf",
+    "sha256": "b4d230ae51ef820adad12a11d9fc0c184502d43a8d6841e674bcc58418351fb3"
+  },
+  {
+    "id": "treasurer_1927",
+    "publisher_pdf": "https://www.govinfo.gov/content/pkg/GOVPUB-T-611b9e14ae35d0433572e2f6393e3e68/pdf/GOVPUB-T-611b9e14ae35d0433572e2f6393e3e68.pdf",
+    "local_pdf": "documents/treasurer/treasurer_1927.pdf",
+    "sha256": "f81abfb7a94fdfe497ca3f1c39db21b61d015a734b6d086899b0907ceee91338"
+  },
+  {
+    "id": "treasurer_1928",
+    "publisher_pdf": "https://www.govinfo.gov/content/pkg/GOVPUB-T-bd3d161a2d266f790329da23ad4e1350/pdf/GOVPUB-T-bd3d161a2d266f790329da23ad4e1350.pdf",
+    "local_pdf": "documents/treasurer/treasurer_1928.pdf",
+    "sha256": "397a428a50198fff4c823df113a58894a8b0d39f96a77cc9b02633921baec4f8"
+  },
+  {
+    "id": "treasurer_1929",
+    "publisher_pdf": "https://www.govinfo.gov/content/pkg/GOVPUB-T-90d60562805b848788b86c614091c9cf/pdf/GOVPUB-T-90d60562805b848788b86c614091c9cf.pdf",
+    "local_pdf": "documents/treasurer/treasurer_1929.pdf",
+    "sha256": "07678ac0fae96197ad13246b7bc1a6721c27c3b86cc705254dbab26dd0745508"
+  },
+  {
+    "id": "treasurer_1930",
+    "publisher_pdf": "https://www.govinfo.gov/content/pkg/GOVPUB-T-605cd93d3b25243e27afc459aac55a91/pdf/GOVPUB-T-605cd93d3b25243e27afc459aac55a91.pdf",
+    "local_pdf": "documents/treasurer/treasurer_1930.pdf",
+    "sha256": "d72a68407f84974bdaba8b2cf103ff9899273b270e398245a224e023b53b3d44"
+  },
+  {
+    "id": "treasurer_1931",
+    "publisher_pdf": "https://www.govinfo.gov/content/pkg/GOVPUB-T-f151a087ee13443487af0236d2cf70f3/pdf/GOVPUB-T-f151a087ee13443487af0236d2cf70f3.pdf",
+    "local_pdf": "documents/treasurer/treasurer_1931.pdf",
+    "sha256": "e404ca05e9c4976d9c582452c327ad70221e3cd246ccf404f6d71d5104149acf"
+  },
+  {
+    "id": "usfr_2020",
+    "publisher_pdf": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2020/fr-03-25-2021-(final).pdf",
+    "local_pdf": "documents/usfr/usfr_2020.pdf",
+    "sha256": "3e3848db3943b38d297c1945381a7425206090af0a3d8b34c3d95739d9f89869"
+  },
+  {
+    "id": "usfr_2021",
+    "publisher_pdf": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2021/fr-02-17-2022-(final).pdf",
+    "local_pdf": "documents/usfr/usfr_2021.pdf",
+    "sha256": "12823285cd2ada27a6347cdbc9217e6e853718d12cfd1614d889346422e980d5"
+  },
+  {
+    "id": "usfr_2022",
+    "publisher_pdf": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2022/02-16-2023-FR-(Final).pdf",
+    "local_pdf": "documents/usfr/usfr_2022.pdf",
+    "sha256": "05ddb48f7b6b2bdc8b5663cf8a8e15b66875981df002935ee7e7f27bd0907ad0"
+  },
+  {
+    "id": "usfr_2023",
+    "publisher_pdf": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2023/02-15-2024-FR-(final).pdf",
+    "local_pdf": "documents/usfr/usfr_2023.pdf",
+    "sha256": "993b42b4b37b7794e6663c1922d364db9b7df986b44b6d55f366c62fbf9fa824"
+  },
+  {
+    "id": "usfr_2024",
+    "publisher_pdf": "https://fiscal.treasury.gov/system/files/files/reports-statements/financial-report/2024/01-16-2025-FR-(Final).pdf",
+    "local_pdf": "documents/usfr/usfr_2024.pdf",
+    "sha256": "979aff81b3d58c8f557d47a8436fe1d79f6bffa2b68b15297046987070ccdb0b"
+  },
+  {
+    "id": "bnsf_2015",
+    "publisher_pdf": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2015.pdf",
+    "local_pdf": "documents/bnsf/bnsf_2015.pdf",
+    "sha256": "97dacbafdc322728ebdc06582ad8cab10c4fcbf83b5c7556b25c1ad0a997622d"
+  },
+  {
+    "id": "bnsf_2018",
+    "publisher_pdf": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2018.pdf",
+    "local_pdf": "documents/bnsf/bnsf_2018.pdf",
+    "sha256": "2b23a3f914a9df0feec7fc2cadfd4035d87599726f96b39163ccbecbb1a9d6df"
+  },
+  {
+    "id": "bnsf_2021",
+    "publisher_pdf": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2021.pdf",
+    "local_pdf": "documents/bnsf/bnsf_2021.pdf",
+    "sha256": "ba9549ae36a2c56579bf68c17b37a8ec4f2895a4b31e5bfcd4b25b4b1afc3836"
+  },
+  {
+    "id": "bnsf_2024",
+    "publisher_pdf": "https://www.bnsf.com/about-bnsf/financial-information/pdf/10k-llc-2024.pdf",
+    "local_pdf": "documents/bnsf/bnsf_2024.pdf",
+    "sha256": "8eb30f8671f1b13efc7707410b6752666572c0140d4818977240a81d2304134b"
+  }
+]

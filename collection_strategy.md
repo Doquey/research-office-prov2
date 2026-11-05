@@ -2,7 +2,7 @@
 
 ## Immediate pilot
 
-Use the ten PDF paths in `ingestion_allowlist.json`. `pilot_corpus.json` includes the full metadata for both five-year groups; `document_candidates.json` adds five Federal Reserve alternatives. Retain originals and page-level JSONL. Every cited PDF page is 1-based; printed page labels may differ.
+Use the 14 PDF paths in `ingestion_allowlist.json`. `pilot_corpus.json` includes the two five-year government collections and four BNSF filings covering twelve fiscal years; `document_candidates.json` adds five Federal Reserve alternatives. Retain originals and page-level JSONL. Every cited PDF page is 1-based; printed page labels may differ.
 
 Do not generate from the benchmark-reference folder, research report, or download manifest. These contain evaluation context and are not source documents for training. No QA generation has been performed in this collection.
 
@@ -11,7 +11,7 @@ Do not generate from the benchmark-reference folder, research report, or downloa
 1. **GovInfo first:** extend Treasurer annual reports in adjacent five-to-ten-year blocks. Discover records through title/agency/SuDoc metadata and package IDs; inspect each issue. Next consider other Treasury, Comptroller and agency accounting series only after confirming their numerical sections and benchmark exclusion. Use [GovInfo API/sitemaps](https://www.govinfo.gov/developers), not guessed PDF names.
 2. **Treasury next:** extend the [Financial Report archive](https://fiscal.treasury.gov/accounting/us-financial-report/previous-reports), then trace restatement notes to the corresponding agency financial reports. Pair the original and revised vintages, and keep unchanged comparison years for context. Avoid collecting every agency merely to inflate document count.
 3. **Historical financial records:** use [FRASER's collections](https://fraser.stlouisfed.org/title/117) to identify recurring Federal Reserve/banking series. Review individual rights and service terms; request an appropriate permitted acquisition route before bulk automated/commercial collection. Prefer original agency or GovInfo copies when available, recording the alternative-scan relation rather than creating duplicate documents. [FRASER terms](https://fraser.stlouisfed.org/terms-of-use)
-4. **GAO and SEC later:** GAO audit reports can explain accounting changes but often overlap Treasury appendices. EDGAR provides corporate transfer data with revision histories; it is a lower-similarity extension, not the core corpus. [GAO example](https://www.gao.gov/products/gao-25-107421), [SEC API documentation](https://www.sec.gov/search-filings/edgar-application-programming-interfaces)
+4. **GAO and additional SEC filings:** GAO audit reports can explain accounting changes but often overlap Treasury appendices. The [BNSF corporate pilot](evidence/bnsf/README.md) uses filings verified against EDGAR. Additional issuers can extend the pilot after evidence review. [GAO example](https://www.gao.gov/products/gao-25-107421), [SEC API documentation](https://www.sec.gov/search-filings/edgar-application-programming-interfaces)
 
 Suggested planning stages, not discovered inventory: validate ~50 documents across several coherent periods, scale to ~250 after measuring QA-generation yield, then consider ~1,000 only if enough distinct series and evidence survive quality/contamination review. A thousand files are not necessarily a thousand independent sources.
 

@@ -9,7 +9,11 @@
     "documents/usfr/usfr_2021.pdf",
     "documents/usfr/usfr_2022.pdf",
     "documents/usfr/usfr_2023.pdf",
-    "documents/usfr/usfr_2024.pdf"
+    "documents/usfr/usfr_2024.pdf",
+    "documents/bnsf/bnsf_2015.pdf",
+    "documents/bnsf/bnsf_2018.pdf",
+    "documents/bnsf/bnsf_2021.pdf",
+    "documents/bnsf/bnsf_2024.pdf"
   ],
   "excluded_paths": [
     "benchmark_reference_only/**",

@@ -20,6 +20,13 @@ def norm(text):
 
 def audit():
     docs = json.loads((ROOT/'document_candidates.json').read_text())['candidates']
+    missing = [d['verification']['local_pdf'] for d in docs
+               if not (ROOT / d['verification']['local_pdf']).is_file()]
+    if missing:
+        raise SystemExit(
+            f"{len(missing)} PDF(s) missing, including {missing[0]}. "
+            "Run python scripts/download_sources.py --all before auditing the full corpus."
+        )
     hashes, text_hashes, source_ids, urls = (collections.defaultdict(list) for _ in range(4))
     page_hashes = collections.defaultdict(list)
     shingles = {}
@@ -70,7 +77,7 @@ def audit():
         'method':'SHA-256 bytes; exact normalized full text; title+series+report year; canonical resolved URL; five-token shingle Jaccard with numbers retained; exact long-page text hashes.',
         'limitations':['Jaccard threshold is heuristic and not calibrated to this corpus.','No perceptual image deduplication or fuzzy table-cell alignment was performed.','Similar annual reports and explicit restatements are retained as distinct vintages; do not erase changed values.','No actual benchmark PDF or full-text comparison was possible.'],
         'benchmark_check':{'manifest_pdf_count':len(entries),'usable_lfs_sha256_count':len(usable_lfs),'identity_matches':[{'id':d['id'],'matches':d['contamination_check']['package_id_matches']} for d in docs if d['contamination_check']['package_id_matches']], 'full_byte_text_dedup_status':'not performed; gated bytes and masked public LFS hashes'},
-        'decision':'Keep all 15 source documents. Use only the 10-document pilot allowlist for generation. Retain version relationships and keep overlapping evidence in the same future split.'
+        'decision':'Use ingestion_allowlist.json for generation. Retain distinct reporting vintages and keep overlapping evidence in the same future split.'
     }
     target=ROOT/'provenance/deduplication_report.json'
     target.write_text(json.dumps(report,indent=2)+'\n')
